@@ -6,14 +6,14 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 	import UseCases from "$lib/components/layout/UseCases.svelte";
 </script>
 
-<Hero
+<CenteredTextOnlyHero
 	title="Zero-trust recovery that never fails."
 	subtitle="Blockchain-verified backups that guarantee instant recovery when attacks strike."
-	imageSrc="/generated/image-a-group-of-diverse-individuals-engaged-i.webp"
+	imageSrc="https://images.unsplash.com/photo-1734779206719-864dbdae36d6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 />
 <LogoScroller
 	label="Trusted by MSPs and enterprise IT leaders"
