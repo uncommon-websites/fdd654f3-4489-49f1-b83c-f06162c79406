@@ -35,115 +35,136 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Decentralized storage that scales with you",
+		subtitle = "Choose the plan that fits your Web3 storage needs",
+		tierNames = ["Developer", "Pro", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Storage capacity",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Developer: "100GB",
+					Pro: "1TB",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Data redundancy",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
+					Developer: "3x replication",
+					Pro: "5x replication",
+					Enterprise: "Custom replication"
+				}
+			},
+			{
+				name: "API requests/month",
+				tiers: {
+					Developer: "100K",
+					Pro: "1M",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Censorship resistance",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
+					Developer: true,
 					Pro: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "End-to-end encryption",
 				tiers: {
-					Starter: false,
+					Developer: true,
 					Pro: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Provable storage",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Developer: "Basic proofs",
+					Pro: "Advanced proofs",
+					Enterprise: "Custom proofs"
+				}
+			},
+			{
+				name: "Network bandwidth",
+				tiers: {
+					Developer: "10 Mbps",
+					Pro: "100 Mbps",
+					Enterprise: "Unlimited"
+				}
+			},
+			{
+				name: "Cosmos SDK integration",
+				tiers: {
+					Developer: true,
+					Pro: true,
+					Enterprise: true
 				}
 			},
 			{
 				name: "Support response time",
 				tiers: {
-					Starter: "24 hours",
+					Developer: "24 hours",
 					Pro: "4 hours",
 					Enterprise: "1 hour"
 				}
 			},
 			{
-				name: "Dedicated account manager",
+				name: "Custom node deployment",
 				tiers: {
-					Starter: false,
+					Developer: false,
 					Pro: false,
 					Enterprise: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "SLA guarantee",
 				tiers: {
-					Starter: false,
-					Pro: false,
+					Developer: false,
+					Pro: "99.5%",
 					Enterprise: "99.9%"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Developer",
+				monthlyPrice: 19.99,
+				yearlyPrice: 15.99, // 20% savings
+				description: "Perfect for Web3 developers and small dApps",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"100GB decentralized storage",
+					"100K API requests/month",
+					"Censorship-resistant storage",
+					"End-to-end encryption",
+					"Basic provable storage",
+					"10 Mbps network bandwidth",
+					"Community support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Start building",
+					href: "/signup?plan=developer"
 				}
 			},
 			{
 				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				monthlyPrice: 79.99,
+				yearlyPrice: 63.99, // 20% savings
+				description: "For growing dApps and production workloads",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"1TB decentralized storage",
+					"1M API requests/month",
+					"5x data replication",
+					"Advanced provable storage",
+					"100 Mbps network bandwidth",
+					"Priority support",
+					"99.5% uptime SLA",
+					"Custom domains"
 				],
 				cta: {
-					label: "Get started",
+					label: "Scale up",
 					href: "/signup?plan=pro"
 				},
 				highlight: true
@@ -152,15 +173,16 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "For large-scale Web3 applications and organizations",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Unlimited storage capacity",
+					"Unlimited API requests",
+					"Custom data replication",
+					"Custom provable storage",
+					"Dedicated node deployment",
+					"White-label solutions",
+					"99.9% uptime SLA",
+					"Dedicated account manager"
 				],
 				cta: {
 					label: "Contact sales",
@@ -186,18 +208,24 @@ Please update features according to the company's product offering. Do not remov
 		<SectionHeader {title} {subtitle} />
 
 		<div class="mb-8 flex justify-center">
-			<div class="inline-flex items-center rounded-full bg-gray-200 p-0.5 gap-0.5">
+			<div class="inline-flex items-center rounded-full bg-muted p-0.5 gap-0.5">
 				<button
-					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {!annual ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
+					class={[
+						'rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200',
+						!annual ? 'bg-background text-foreground' : 'text-muted-foreground hover:text-foreground'
+					]}
 					onclick={() => (annual = false)}
 				>
 					Monthly
 				</button>
 				<button
-					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {annual ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
+					class={[
+						'rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200',
+						annual ? 'bg-background text-foreground' : 'text-muted-foreground hover:text-foreground'
+					]}
 					onclick={() => (annual = true)}
 				>
-					Annual <span class="text-xs ml-1 text-gray-500">Save 20%</span>
+					Annual <span class="text-xs ml-1 text-muted-foreground">Save 20%</span>
 				</button>
 			</div>
 		</div>
@@ -206,17 +234,18 @@ Please update features according to the company's product offering. Do not remov
 	<div class="bb grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 		{#each tiers as tier}
 			<div
-				class="flex flex-col rounded-xl bg-white p-6 ring ring-gray-200 transition-all duration-300 dark:bg-gray-800 dark:ring-gray-700"
+				class="flex flex-col rounded-xl bg-background p-6 ring ring-border transition-all duration-300 dark:bg-card dark:ring-border"
 				class:ring-2={tier.highlight}
 				class:ring-primary={tier.highlight}
-				class:dark:ring-primary-700={tier.highlight}
-				class:translate-y-[-4px]={tier.highlight}
+				class:dark:ring-primary={tier.highlight}
+				class:transform={tier.highlight}
+			class:-translate-y-1={tier.highlight}
 			>
 				<div class="mb-8">
-					<h3 class="text-title3 mb-4 dark:text-white">{tier.name}</h3>
+					<h3 class="text-title3 mb-4 text-foreground">{tier.name}</h3>
 					<div class="mt-2 flex items-baseline">
 						{#if tier.monthlyPrice === null && tier.yearlyPrice === null}
-							<span class="text-title2 dark:text-white">Custom</span>
+							<span class="text-title2 text-foreground">Custom</span>
 						{:else}
 							<NumberFlow
 								class="text-title2 [&::part\(suffix\)]:text-caption dark:text-white"
@@ -230,7 +259,7 @@ Please update features according to the company's product offering. Do not remov
 							/>
 						{/if}
 					</div>
-					<p class="text-callout text-emphasis-medium mt-3 dark:text-gray-300">
+					<p class="text-callout text-emphasis-medium mt-3">
 						{tier.description}
 					</p>
 				</div>
@@ -239,8 +268,8 @@ Please update features according to the company's product offering. Do not remov
 					<ul class="space-y-3">
 						{#each tier.features as feature}
 							<li class="flex items-center gap-2">
-								<IconCheck class="text-primary-600 dark:text-primary-400 size-5 flex-shrink-0" />
-								<span class="text-body text-emphasis-medium dark:text-gray-300">{feature}</span>
+								<IconCheck class="text-primary size-5 flex-shrink-0" />
+								<span class="text-body text-emphasis-medium">{feature}</span>
 							</li>
 						{/each}
 					</ul>
@@ -321,7 +350,7 @@ Please update features according to the company's product offering. Do not remov
 								<span class="sr-only">Feature</span>
 							</th>
 							{#each tierNames as tierName, i}
-								<th class="text-caption min-w-[100px] py-3 text-left dark:text-white">
+								<th class="text-caption min-w-[100px] py-3 text-left text-foreground">
 									{tierName}
 								</th>
 							{/each}
@@ -330,19 +359,19 @@ Please update features according to the company's product offering. Do not remov
 					<tbody class="divide-border divide-y">
 						{#each features as feature}
 							<tr>
-								<td class="text-body py-3 pr-8 font-medium lg:pr-0 dark:text-white">
+								<td class="text-body py-3 pr-8 font-medium lg:pr-0 text-foreground">
 									{feature.name}
 								</td>
 								{#each tierNames as tierName, i}
 									<td class="py-3">
 										{#if typeof feature.tiers[tierName] === "boolean"}
 											{#if feature.tiers[tierName]}
-												<IconCheck class="text-primary-900 dark:text-primary-400 size-5" />
+												<IconCheck class="text-primary size-5" />
 											{:else}
-												<IconX class="size-5 text-gray-400" />
+												<IconX class="size-5 text-muted-foreground" />
 											{/if}
 										{:else}
-											<span class="text-callout font-medium text-gray-700 dark:text-gray-300">
+											<span class="text-callout font-medium text-emphasis-medium">
 												{feature.tiers[tierName]}
 											</span>
 										{/if}
