@@ -9,10 +9,10 @@
 	import Card from "$lib/components/ui/Card.svelte";
 	import JobList, { type JobOpening } from "./JobList.svelte";
 
-	// Icons
-	import IconBriefcase from "~icons/lucide/briefcase";
-	import IconUsers from "~icons/lucide/users";
-	import IconHeart from "~icons/lucide/heart";
+	// Icons - using inline SVGs instead of icon imports
+	// import IconBriefcase from "~icons/lucide/briefcase";
+	// import IconUsers from "~icons/lucide/users";
+	// import IconHeart from "~icons/lucide/heart";
 
 	// Constants
 	const SECTION_BASE_CLASSES = "section-py section-px container mx-auto";

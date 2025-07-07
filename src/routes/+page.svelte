@@ -46,7 +46,7 @@
 			company: "SecureNet Solutions",
 			quote:
 				"Respawn's immutable verification gives our clients confidence that their recovery will work. We've eliminated failed recovery attempts and the reputation damage that comes with them.",
-			image: "/generated/image-an-msp-operations-director-in-a-secure-s.webp"
+			image: "/generated/image-an-msp-operations-director-leading-a-cyb.webp"
 		},
 		{
 			name: "David Kim",
@@ -54,7 +54,7 @@
 			company: "MidMarket Manufacturing",
 			quote:
 				"The blockchain-powered verification means we can prove our data integrity to auditors instantly. Respawn turned our biggest compliance headache into our strongest security asset.",
-			image: "/generated/image-an-it-director-reviewing-systems-in-a-se.webp"
+			image: "/generated/image-an-it-director-reviewing-backup-infrastr.webp"
 		}
 	]}
 />
@@ -103,7 +103,7 @@
 		{
 			title: "MSP service differentiation",
 			description: "Stand out from competitors by offering guaranteed recovery that actually works. Eliminate the reputation damage from failed recovery attempts and provide your clients with cryptographically verified data protection that traditional backup solutions can't match.",
-			image: "/generated/image-cybersecurity-professionals-working-in-a.webp",
+			image: "/generated/image-a-professional-technician-working-in-a-s.webp",
 			link: {
 				href: "/use-cases/msp-services",
 				label: "Learn more"
@@ -112,7 +112,7 @@
 		{
 			title: "Enterprise ransomware protection",
 			description: "Stops malware from reextracting through backup restores. Shields from insider threats that exploit root privileges. Detects and routes around silent node failures or misconfigurations.",
-			image: "/generated/image-a-security-architect-presenting-solution.webp",
+			image: "/generated/image-a-security-architect-reviewing-recovery-.webp",
 			link: {
 				href: "/use-cases/ransomware-protection",
 				label: "Learn more"
@@ -121,7 +121,7 @@
 		{
 			title: "Full stack recovery in sync",
 			description: "Recovers full, distributed stacks in sync—with a single command. Recovery plans you can read at a glance with a visual dashboard of your environment's integrity, restore ability, audit logs, and sync timelines.",
-			image: "/generated/image-a-technical-team-building-infrastructure.webp",
+			image: "/generated/image-an-it-team-monitoring-a-recovery-network.webp",
 			link: {
 				href: "/use-cases/compliance",
 				label: "Learn more"
@@ -135,7 +135,7 @@
 	title="Your infrastructure isn't bulletproof. Your recovery should be." 
 	subtitle="This isn't backup. This is uncompromising recovery."
 	description="Talk to our executive team to pinpoint where your current risk lives—and how Respawn guarantees verified, breach-resilient recovery across every stack in your environment."
-	imageSrc="/generated/image-an-it-team-successfully-restoring-critic.webp"
+	imageSrc="/generated/image-a-cybersecurity-team-celebrating-success.webp"
 	callsToAction={[
 		{
 			href: "mailto:patrick@respawn.com",

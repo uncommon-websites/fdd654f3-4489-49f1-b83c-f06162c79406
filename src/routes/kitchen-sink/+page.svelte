@@ -3,12 +3,12 @@
 	import Card from "$lib/components/ui/Card.svelte";
 	import Features from "$lib/components/layout/Features.svelte";
 
-	// Icons temporarily removed due to import issues
-	// import IconZap from "~icons/lucide/zap";
-	// import IconShield from "~icons/lucide/shield";
-	// import IconUsers from "~icons/lucide/users";
-	// import IconSettings from "~icons/lucide/settings";
-	// import IconPalette from "~icons/lucide/palette";
+	// Icons
+	import IconZap from "~icons/lucide/zap";
+	import IconShield from "~icons/lucide/shield";
+	import IconUsers from "~icons/lucide/users";
+	import IconSettings from "~icons/lucide/settings";
+	import IconPalette from "~icons/lucide/palette";
 
 	// Theme controls
 	let themeRadius = $state(8); // 0.5rem = 8px
@@ -492,8 +492,7 @@
 			features={[
 				{
 					title: "Auto-scaling",
-					description: "Automatically scale based on demand.",
-					icon: IconZap
+					description: "Automatically scale based on demand."
 				},
 				{
 					title: "SSL certificates",
