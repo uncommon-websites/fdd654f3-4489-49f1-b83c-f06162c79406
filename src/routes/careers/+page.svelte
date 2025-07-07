@@ -24,16 +24,22 @@
 
 	const benefits = [
 		{
-			title: "Shape the future of recovery",
-			description: "Work on foundational blockchain infrastructure that will power the next generation of guaranteed recovery systems, eliminating the 50% industry failure rate."
+			title: "Push boundaries with cutting-edge technology",
+			description:
+				"Build with the Cosmos SDK, zero-knowledge proofs, and provable storage systems. Our tech stack supports some of the most advanced use cases in blockchain today.",
+			icon: IconBriefcase
 		},
 		{
-			title: "Build with purpose",
-			description: "Create products that protect organizations from AI-powered attacks and ransomware, making a real impact on business continuity and data security."
+			title: "Join a mission with meaning",
+			description:
+				"We're not here to chase trends—we're here to protect digital rights. At Jackal, your work directly supports user privacy, data ownership, and decentralization.",
+			icon: IconUsers
 		},
 		{
-			title: "Grow in emerging tech",
-			description: "Master cutting-edge blockchain technology and cryptographic verification while building your career in the fastest-growing cybersecurity sector."
+			title: "Work from anywhere, with trust",
+			description:
+				"We're a remote-first team that values autonomy, clear communication, and asynchronous workflows. Contribute on your schedule—what matters is what you deliver, not where you work.",
+			icon: IconHeart
 		}
 	];
 
@@ -133,32 +139,46 @@
 			step: 1,
 			title: "Apply",
 			description:
-				"Send us your resume or portfolio to patrick@respawn.com with a brief note about your interest in blockchain recovery technologies."
+				"Send your resume or GitHub link with a short note about which role interests you to patrick@jackallabs.io."
 		},
 		{
 			step: 2,
-			title: "Technical review",
-			description: "Complete a short async project or intro call, followed by a technical or functional interview based on your role."
+			title: "Intro call",
+			description:
+				"We'll hop on a quick call to understand what you're looking for and share more about the role and team."
 		},
 		{
 			step: 3,
-			title: "Team fit",
-			description: "Meet 1-2 members of the team to discuss collaboration style and ensure mutual alignment before making a final decision."
+			title: "Technical assessment",
+			description:
+				"Depending on the role, you may complete a short take-home project or discuss code you've already written with an engineer."
+		},
+		{
+			step: 4,
+			title: "Final conversation",
+			description:
+				"Connect directly with the core team and explore alignment on impact, projects, and ways you can grow with us."
 		}
 	];
 
 	const values = [
 		{
-			title: "Engineering excellence",
-			description: "Product is ideated, built, and shipped by engineers with real voice in direction and architecture decisions, ensuring guaranteed recovery works flawlessly."
+			icon: IconHeart,
+			title: "Think long term",
+			description:
+				"We're building infrastructure for decades to come. Decisions are made with staying power in mind—not quick wins."
 		},
 		{
-			title: "Security by design",
-			description: "We don't just build for data protection—we organize around zero trust principles and immutable verification as a team."
+			icon: IconUsers,
+			title: "Code with integrity",
+			description:
+				"We care about usefulness, transparency, and building products that solve real problems—not chasing hype."
 		},
 		{
-			title: "Recovery-first thinking",
-			description: "We embrace distributed systems, autonomous work, and resistance to single points of failure in everything we do, ensuring recovery always works."
+			icon: IconGlobe,
+			title: "Stay open by default",
+			description:
+				"We believe in transparent decision-making and open collaboration—with each other and with our community."
 		}
 	];
 </script>
@@ -166,14 +186,17 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Build the future of guaranteed recovery"
-	subtitle="Join our mission to eliminate failed recovery attempts and protect organizations from AI-powered attacks. Work with cutting-edge blockchain technology alongside brilliant minds in a collaborative, remote-first environment."
-	imageSrc="/generated/image-a-group-of-diverse-cybersecurity-profess.webp"
+	title="Join our team of innovators"
+	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader
+		title="Why join us?"
+		subtitle="Make an impact on the decentralized future. Work on critical Web3 infrastructure that powers censorship-resistant, privacy-first cloud storage."
+	/>
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -191,8 +214,11 @@
 <section class={SECTION_BASE_CLASSES}>
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
+		<p class="text-body text-emphasis-low mb-16">
+			We move fast—most candidates hear back and complete the process within 2 to 3 weeks.
+		</p>
 
-		<div class="grid gap-12 md:grid-cols-3">
+		<div class="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
 			{#each processSteps as { step, title, description }, i}
 				<div class="flex flex-col">
 					<div class="{ICON_CONTAINER_CLASSES} mb-6 size-11">
