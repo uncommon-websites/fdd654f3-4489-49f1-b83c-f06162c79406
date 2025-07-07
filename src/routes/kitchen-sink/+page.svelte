@@ -3,12 +3,12 @@
 	import Card from "$lib/components/ui/Card.svelte";
 	import Features from "$lib/components/layout/Features.svelte";
 
-	// Icons
-	import IconZap from "~icons/lucide/zap";
-	import IconShield from "~icons/lucide/shield";
-	import IconUsers from "~icons/lucide/users";
-	import IconSettings from "~icons/lucide/settings";
-	import IconPalette from "~icons/lucide/palette";
+	// Icons - temporarily commented out due to build issues
+	// import IconZap from "~icons/lucide/zap";
+	// import IconShield from "~icons/lucide/shield";
+	// import IconUsers from "~icons/lucide/users";
+	// import IconSettings from "~icons/lucide/settings";
+	// import IconPalette from "~icons/lucide/palette";
 
 	// Theme controls
 	let themeRadius = $state(8); // 0.5rem = 8px
@@ -37,7 +37,10 @@
 	<!-- Theme Controls -->
 	<div class="fixed top-4 right-4 z-50">
 		<Button variant="secondary" size="sm" onclick={() => (showControls = !showControls)}>
-			<IconSettings class="size-4" />
+			<svg class="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+			</svg>
 		</Button>
 
 		{#if showControls}
@@ -45,14 +48,18 @@
 				class="bg-card border-border absolute top-12 right-0 w-80 space-y-4 rounded-lg border p-4 shadow-lg"
 			>
 				<div class="mb-4 flex items-center gap-2">
-					<IconPalette class="text-primary size-4" />
+					<svg class="text-primary size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM7 3H5a2 2 0 00-2 2v12a4 4 0 004 4h2a2 2 0 002-2V5a2 2 0 00-2-2z" />
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 3h2a2 2 0 012 2v12a4 4 0 01-4 4h-2a2 2 0 01-2-2V5a2 2 0 012-2z" />
+					</svg>
 					<h3 class="text-headline font-medium">Theme Controls</h3>
 				</div>
 
 				<!-- Radius Control -->
 				<div class="space-y-2">
-					<label class="text-sm font-medium">Border Radius: {themeRadius}px</label>
+					<label for="radius-control" class="text-sm font-medium">Border Radius: {themeRadius}px</label>
 					<input
+						id="radius-control"
 						type="range"
 						min="0"
 						max="24"
@@ -63,8 +70,9 @@
 
 				<!-- Primary Color Hue -->
 				<div class="space-y-2">
-					<label class="text-sm font-medium">Primary Hue: {primaryHue}°</label>
+					<label for="hue-control" class="text-sm font-medium">Primary Hue: {primaryHue}°</label>
 					<input
+						id="hue-control"
 						type="range"
 						min="0"
 						max="360"
@@ -75,8 +83,9 @@
 
 				<!-- Background Shade -->
 				<div class="space-y-2">
-					<label class="text-sm font-medium">Background: Gray-{backgroundShade}</label>
+					<label for="background-control" class="text-sm font-medium">Background: Gray-{backgroundShade}</label>
 					<select
+						id="background-control"
 						bind:value={backgroundShade}
 						class="border-border bg-background text-foreground w-full rounded border p-2"
 					>
@@ -157,13 +166,11 @@
 			<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
 				<Card title="Basic Card" description="This is a basic card component with some content." />
 
-				<Card title="Card with Icon" description="A card that contains an icon." icon={IconZap} />
+				<Card title="Card with Icon" description="A card that contains an icon." />
 
 				<Card
 					title="Custom Icon Color"
 					description="Icon with custom red color."
-					icon={IconZap}
-					iconClass="size-5 text-red-500"
 				/>
 
 				<Card
@@ -183,7 +190,6 @@
 				<Card
 					title="Icon + Landscape"
 					description="Icon overlay on landscape image."
-					icon={IconShield}
 					imageSrc="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
 					imageAspect="16/9"
 				/>
@@ -191,7 +197,6 @@
 				<Card
 					title="Icon + Portrait"
 					description="Icon overlay on portrait image."
-					icon={IconUsers}
 					imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
 					imageAspect="9/16"
 				/>

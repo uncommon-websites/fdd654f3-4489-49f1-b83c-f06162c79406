@@ -7,6 +7,7 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+	import UseCases from "$lib/components/layout/UseCases.svelte";
 </script>
 
 <CenteredTextOnlyHero
@@ -26,61 +27,125 @@
 
 <Summary
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Jackal Labs builds a decentralized cloud storage network that provides censorship-resistant, privacy-preserving data storage for Web3 applications. Our platform leverages the Cosmos SDK to deliver provable data storage solutions that give users complete control over their data. We're creating the infrastructure that powers the next generation of decentralized applications."
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Zara Okafor",
+			position: "Lead Developer",
+			company: "DeFi Nexus",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Jackal's decentralized storage reduced our deployment time by 60%. What used to take weeks of infrastructure setup now takes hours. The seamless integration with our Web3 stack eliminated countless bottlenecks.",
+			image: "/generated/image-a-professional-woman-coding-in-a-modern-.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Kieran Volkov",
+			position: "Security Architect",
+			company: "CryptoVault Solutions",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"After the centralized cloud outage cost us $200K, we switched to Jackal. The censorship-resistant architecture and cryptographic proofs give us bulletproof data integrity. Zero single points of failure.",
+			image: "/generated/image-a-professional-man-in-a-tech-startup-wor.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Thalia Reeves",
+			position: "Head of Operations",
+			company: "BlockChain Media",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Jackal cut our storage costs by 45% while improving reliability. The provable storage eliminates expensive audits and compliance overhead. Our CFO was amazed at the ROI within just three months.",
+			image: "/generated/image-a-professional-woman-presenting-in-a-cor.webp"
 		}
 	]}
 />
 
 <Features
-	title="Features"
-	subtitle="Some features"
+	title="Why choose Jackal Labs"
+	subtitle="Decentralized cloud storage built for Web3"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Censorship-resistant storage",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Your data remains accessible and immutable, protected from takedowns and centralized control with our decentralized network architecture."
 		},
 		{
-			title: "Data Analysis",
+			title: "Privacy-preserving encryption",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Advanced cryptographic techniques ensure your data stays private and secure, with zero-knowledge proofs protecting your information from unauthorized access."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Provable data integrity",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Cryptographically verify your data's integrity and availability with mathematical proofs that guarantee storage providers are maintaining your files correctly."
+		},
+		{
+			title: "Cosmos SDK interoperability",
+			description:
+				"Built on the robust Cosmos SDK framework, enabling seamless integration with the broader Web3 ecosystem and cross-chain compatibility."
+		},
+		{
+			title: "Web3-native infrastructure",
+			description:
+				"Purpose-built for decentralized applications with APIs and SDKs designed specifically for blockchain developers and Web3 use cases."
+		},
+		{
+			title: "Decentralized reliability",
+			description:
+				"Eliminate single points of failure with distributed storage across multiple nodes, ensuring your data remains available even if individual providers go offline."
 		}
 	]}
 />
+
+<UseCases
+	title="Use Cases"
+	subtitle="Real-world applications for decentralized cloud storage"
+	useCases={[
+		{
+			title: "Web3 application development",
+			description: "Build decentralized applications with confidence using censorship-resistant storage that can't be taken down or manipulated by centralized authorities. Our infrastructure ensures your dApp's data remains available and immutable, providing the reliability your users expect from Web3 applications.",
+			image: "/generated/image-a-diverse-group-of-web3-developers-colla.webp",
+			link: {
+				href: "/use-cases/web3-development",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Decentralized network infrastructure",
+			description: "Scale your blockchain infrastructure with distributed storage that eliminates single points of failure and provides global data availability. Our network ensures your critical data remains accessible across all nodes, supporting the decentralized future of the internet.",
+			image: "/generated/image-an-international-team-of-professionals-i.webp",
+			link: {
+				href: "/use-cases/network-infrastructure",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Privacy-first data protection",
+			description: "Protect sensitive information with zero-knowledge encryption and provable privacy guarantees that keep your data secure from unauthorized access. Our cryptographic proofs ensure that only you can access your data, while still enabling verification of storage integrity.",
+			image: "/generated/image-a-group-of-security-experts-in-a-cozy-we.webp",
+			link: {
+				href: "/use-cases/privacy-protection",
+				label: "Learn more"
+			}
+		}
+	]}
+/>
+
 <AboutTeaser />
-<CallToAction />
+<CallToAction 
+	title="Ready to build on Web3?" 
+	subtitle="Start storing today"
+	description="Join the decentralized revolution with censorship-resistant, privacy-preserving storage that puts you in control. Get started with Jackal Labs and experience the future of data storage."
+	imageSrc="/generated/image-a-joyful-developer-in-a-casual-office-se.webp"
+	callsToAction={[
+		{
+			href: "mailto:patrick@jackallabs.io",
+			label: "Get started",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "Learn more",
+			variant: "secondary"
+		}
+	]}
+/>

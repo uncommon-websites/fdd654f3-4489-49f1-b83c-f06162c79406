@@ -9,11 +9,11 @@
 	import Card from "$lib/components/ui/Card.svelte";
 	import JobList, { type JobOpening } from "./JobList.svelte";
 
-	// Icons
-	import IconBriefcase from "~icons/lucide/briefcase";
-	import IconUsers from "~icons/lucide/users";
-	import IconHeart from "~icons/lucide/heart";
-	import IconGlobe from "~icons/lucide/globe";
+	// Icons - temporarily commented out due to build issues
+	// import IconBriefcase from "~icons/lucide/briefcase";
+	// import IconUsers from "~icons/lucide/users";
+	// import IconHeart from "~icons/lucide/heart";
+	// import IconGlobe from "~icons/lucide/globe";
 
 	// Constants
 	const SECTION_BASE_CLASSES = "section-py section-px container mx-auto";
@@ -24,57 +24,45 @@
 
 	const benefits = [
 		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
+			title: "Shape the decentralized internet",
+			description: "Work on foundational Web3 infrastructure that will power the next generation of censorship-resistant, privacy-preserving applications."
 		},
 		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
+			title: "Build with purpose",
+			description: "Create products that defend privacy and open access in the age of centralized control, making a real impact on digital sovereignty."
 		},
 		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
+			title: "Grow in emerging tech",
+			description: "Master cutting-edge blockchain technology and Cosmos SDK while building your career in the fastest-growing sector of technology."
 		}
 	];
 
 	const openings: JobOpening[] = [
 		// Engineering
 		{
-			title: "Senior Frontend Developer",
+			title: "Blockchain Engineer",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Backend Engineer",
+			title: "Cosmos SDK Developer",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Design Engineer",
+			title: "Frontend Developer",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
-
-		// Design
 		{
-			title: "UX/UI Designer",
-			department: "Design",
-			location: "Remote",
-			type: "Full-time",
-			url: "#"
-		},
-		{
-			title: "Product Designer",
-			department: "Design",
+			title: "DevOps Engineer",
+			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
@@ -82,38 +70,31 @@
 
 		// Product
 		{
-			title: "Product Manager",
+			title: "Developer Relations",
 			department: "Product",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Product Analyst",
+			title: "Technical Writer",
 			department: "Product",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 
-		// Marketing
+		// Growth
 		{
-			title: "Marketing Specialist",
-			department: "Marketing",
+			title: "Community Manager",
+			department: "Growth",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Content Strategist",
-			department: "Marketing",
-			location: "Remote",
-			type: "Full-time",
-			url: "#"
-		},
-		{
-			title: "Social Media Manager",
-			department: "Marketing",
+			title: "Web3 Marketing Lead",
+			department: "Growth",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
@@ -122,29 +103,29 @@
 
 	const employeeTestimonials = [
 		{
-			name: "Michael Chen",
-			position: "Senior Developer",
+			name: "Alex Rivera",
+			position: "Blockchain Engineer",
 			company: "Engineering Team",
 			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
+				"Building infrastructure that will power the decentralized internet is incredibly rewarding. The technical challenges are complex and the mission is meaningful.",
 			image:
 				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 		},
 		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
+			name: "Jordan Kim",
+			position: "Developer Relations",
+			company: "Product Team",
 			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
+				"Working at the intersection of Web3 and developer experience means I'm constantly learning. The impact of helping developers build censorship-resistant apps is huge.",
 			image:
 				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 		},
 		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
+			name: "Maya Patel",
+			position: "Community Manager",
+			company: "Growth Team",
 			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
+				"Being part of a team that's genuinely committed to user privacy and decentralization is inspiring. The community we're building around data sovereignty is passionate and engaged.",
 			image:
 				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 		}
@@ -155,35 +136,32 @@
 			step: 1,
 			title: "Apply",
 			description:
-				"Submit your application through our careers portal with your resume and portfolio."
+				"Send us your resume or portfolio to patrick@jackallabs.io with a brief note about your interest in decentralized technologies."
 		},
 		{
 			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
+			title: "Technical review",
+			description: "Complete a short async project or intro call, followed by a technical or functional interview based on your role."
 		},
 		{
 			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
+			title: "Team fit",
+			description: "Meet 1-2 members of the team to discuss collaboration style and ensure mutual alignment before making a final decision."
 		}
 	];
 
 	const values = [
 		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
+			title: "Engineering excellence",
+			description: "Product is ideated, built, and shipped by engineers with real voice in direction and architecture decisions."
 		},
 		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
+			title: "Privacy by design",
+			description: "We don't just build for user control and privacy—we organize around these principles as a team."
 		},
 		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
+			title: "Decentralized thinking",
+			description: "We embrace distributed systems, autonomous work, and resistance to single points of failure in everything we do."
 		}
 	];
 </script>
@@ -191,14 +169,13 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	generating
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Build the future of decentralized storage"
+	subtitle="Join our mission to create censorship-resistant, privacy-preserving cloud storage solutions. Work with cutting-edge Web3 technology alongside brilliant minds in a collaborative, remote-first environment."
+	imageSrc="/generated/image-a-diverse-team-of-developers-collaborati.webp"
 />
 
 <!-- Why Join Us Section -->
-<section class={SECTION_BASE_CLASSES} generating>
+<section class={SECTION_BASE_CLASSES}>
 	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
@@ -209,12 +186,12 @@
 </section>
 
 <!-- Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<Testimonials testimonials={employeeTestimonials} generating />
+<Testimonials testimonials={employeeTestimonials} />
 
 <!-- Application Process -->
-<section class={SECTION_BASE_CLASSES} generating>
+<section class={SECTION_BASE_CLASSES}>
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
 
@@ -232,7 +209,7 @@
 	</div>
 </section>
 <!-- Current Openings Section -->
-<section class={GRADIENT_BG_CLASSES} generating>
+<section class={GRADIENT_BG_CLASSES}>
 	<div class="section-px section-py container mx-auto grid w-full items-start lg:grid-cols-2">
 		<SectionHeader title="Current openings" subtitle="Find your perfect role" />
 

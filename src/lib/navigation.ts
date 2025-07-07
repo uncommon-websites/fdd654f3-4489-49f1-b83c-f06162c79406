@@ -60,7 +60,6 @@ export const navigation: NavItem[] = [
 		showInNav: true,
 		showInFooter: false
 	},
-
 	{
 		label: "Company",
 		showInNav: true,

@@ -12,12 +12,15 @@
 	// Types
 
 	// Components
-	import IconArrowUpRight from "~icons/lucide/arrow-up-right";
+	// import IconArrowUpRight from "~icons/lucide/arrow-up-right";
 
 	// Utils
 
 	// Props
 	const { openings }: { openings: JobOpening[] } = $props();
+
+	// Simple arrow component since icon import is commented out
+	const ArrowIcon = () => "→";
 
 	let openingsByDepartment = $derived.by(() => {
 		const departments = new Set(openings.map((opening) => opening.department));
@@ -57,7 +60,7 @@
 							<div
 								class="ml-auto grid size-6 h-full items-center self-stretch text-current opacity-20 group-hover:-translate-x-[var(--offset)] group-hover:opacity-50"
 							>
-								<IconArrowUpRight class="size-full" />
+								→
 							</div>
 						</a>
 					</li>

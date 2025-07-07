@@ -21,10 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
+		name: "Patrick Chen",
 		role: "Founder & CEO",
-		image:
-			"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+		image: "/generated/image-a-professional-headshot-of-a-tech-entrep.webp"
 	};
 </script>
 
@@ -33,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"I've seen what happens when centralized systems decide who gets access and who doesn't. We built Jackal so developers and users could finally own their data—and trust that it stays theirs."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
