@@ -11,9 +11,9 @@
 </script>
 
 <Hero
-	title="Guaranteed recovery. Always."
+	title="Zero-trust recovery that never fails."
 	subtitle="Respawn is the zero-trust cyber recovery network that eliminates the 50% failure rate of traditional backups. Powered by blockchain and architected for resilience, Respawn guarantees instant access to tamper-proof, live-verified backups—ready the moment recovery matters most."
-	imageSrc="/generated/image-a-professional-team-of-cybersecurity-exp.webp"
+	imageSrc="/generated/image-an-editorial-style-photograph-of-a-profe.webp"
 />
 <LogoScroller
 	label="Trusted by MSPs and enterprise IT leaders"

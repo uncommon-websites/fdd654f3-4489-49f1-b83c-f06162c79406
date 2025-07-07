@@ -1,5 +1,6 @@
-# Task: Update About Page Subheadline to 10 Words Max
+# Task: Update Hero Headline and Image
 
-- [x] View current about page to identify subheadline
-- [x] Update subheadline to be 10 words or fewer
+- [x] Shorten hero headline to 10 words max
+- [x] Generate a better hero image for cybersecurity/data recovery theme
+- [x] Update the hero component with new image
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
