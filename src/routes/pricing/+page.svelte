@@ -22,7 +22,7 @@
 			company: "TechFlow Industries",
 			quote:
 				"After our traditional backup failed during a ransomware attack, Respawn's guaranteed recovery saved us from a $2M loss. The parallel rehydration got us back online in minutes, not days.",
-			image: "/generated/image-a-confident-it-security-leader-standing-.webp"
+			image: "/generated/image-a-confident-it-security-manager-standing.webp"
 		},
 		{
 			name: "Sarah Rodriguez",
