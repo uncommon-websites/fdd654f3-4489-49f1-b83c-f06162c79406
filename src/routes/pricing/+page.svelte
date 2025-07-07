@@ -17,31 +17,40 @@
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Zara Ashenafi",
+			position: "Blockchain Developer",
+			company: "DeFi Collective",
 			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
+				"Jackal reduced our storage costs by 60% while giving us complete control over our data. The ROI was immediate and the integration took just days, not weeks.",
 			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-confident-ethiopian-woman-in-a-busines.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Kyung-ho Park",
+			position: "DevOps Engineer",
+			company: "Web3 Ventures",
 			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
+				"The ease of use blew me away. Jackal's APIs are intuitive and the documentation is stellar. We migrated our entire infrastructure with zero downtime.",
 			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-confident-korean-man-in-a-corporate-en.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Esperanza Morales",
+			position: "Startup Founder",
+			company: "ChainLink Analytics",
 			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
+				"Jackal's provable storage gives our users confidence that their data is truly secure. The transparency and censorship resistance are game-changers for our platform.",
 			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
+				"/generated/image-a-confident-hispanic-woman-in-an-office-.webp"
+		},
+		{
+			name: "Amara Khaled",
+			position: "Security Architect",
+			company: "Quantum Safe",
+			quote:
+				"The value proposition is unmatched. Jackal delivers enterprise-grade security at a fraction of traditional cloud costs, with none of the vendor lock-in risks.",
+			image:
+				"/generated/image-a-confident-arab-man-in-a-business-envir.webp"
 		}
 	]}
 />
