@@ -12,7 +12,7 @@
 
 <CenteredTextOnlyHero
 	title="Zero-trust recovery that never fails."
-	subtitle="Blockchain-verified backups that guarantee instant recovery when attacks strike."
+	subtitle="Blockchain-verified backups that guarantee instant recovery when attacks strike. While traditional systems fail 50% of the time, our zero-trust network streams clean data from multiple nodes in parallel, eliminating downtime and ensuring your business stays operational."
 	imageSrc="https://images.unsplash.com/photo-1734779206719-864dbdae36d6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 />
 <LogoScroller
