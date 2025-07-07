@@ -32,7 +32,7 @@
 <SecondaryHero
 	title="Recovery you can trust"
 	subtitle="Built by founders who witnessed backup failures"
-	imageSrc="/generated/image-diverse-cybersecurity-professionals-coll.webp"
+	imageSrc="/generated/image-a-professional-cybersecurity-team-is-eng.webp"
 />
 
 <!-- Story Section -->
