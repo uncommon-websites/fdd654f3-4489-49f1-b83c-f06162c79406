@@ -112,14 +112,5 @@
 		{/if}
 	</header>
 
-	{#if imageSrc}
-		<div class="col-span-full aspect-video" data-enter>
-			<img
-				src={imageSrc}
-				alt="Customer"
-				class="size-full object-cover"
-				onerror={handleImageError}
-			/>
-		</div>
-	{/if}
+	<!-- Hero image removed -->
 </div>
