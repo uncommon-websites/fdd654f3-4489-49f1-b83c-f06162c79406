@@ -6,11 +6,11 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
 	import UseCases from "$lib/components/layout/UseCases.svelte";
 </script>
 
-<CenteredTextOnlyHero
+<Hero
 	title="Guaranteed recovery. Always."
 	subtitle="Respawn is the zero-trust cyber recovery network that eliminates the 50% failure rate of traditional backups. Powered by blockchain and architected for resilience, Respawn guarantees instant access to tamper-proof, live-verified backups—ready the moment recovery matters most."
 	imageSrc="/generated/image-a-professional-team-of-cybersecurity-exp.webp"
