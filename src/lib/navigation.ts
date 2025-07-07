@@ -49,8 +49,8 @@ export type NavItem = {
 };
 
 export const cta = {
-	label: "Book demo",
-	href: "/"
+	label: "Get started",
+	href: "mailto:patrick@respawn.com"
 };
 
 export const navigation: NavItem[] = [

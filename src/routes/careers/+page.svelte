@@ -24,30 +24,30 @@
 
 	const benefits = [
 		{
-			title: "Shape the decentralized internet",
-			description: "Work on foundational Web3 infrastructure that will power the next generation of censorship-resistant, privacy-preserving applications."
+			title: "Shape the future of recovery",
+			description: "Work on foundational blockchain infrastructure that will power the next generation of guaranteed recovery systems, eliminating the 50% industry failure rate."
 		},
 		{
 			title: "Build with purpose",
-			description: "Create products that defend privacy and open access in the age of centralized control, making a real impact on digital sovereignty."
+			description: "Create products that protect organizations from AI-powered attacks and ransomware, making a real impact on business continuity and data security."
 		},
 		{
 			title: "Grow in emerging tech",
-			description: "Master cutting-edge blockchain technology and Cosmos SDK while building your career in the fastest-growing sector of technology."
+			description: "Master cutting-edge blockchain technology and cryptographic verification while building your career in the fastest-growing cybersecurity sector."
 		}
 	];
 
 	const openings: JobOpening[] = [
 		// Engineering
 		{
-			title: "Blockchain Engineer",
+			title: "Blockchain Recovery Engineer",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Cosmos SDK Developer",
+			title: "Cryptographic Systems Developer",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
@@ -61,7 +61,7 @@
 			url: "#"
 		},
 		{
-			title: "DevOps Engineer",
+			title: "Infrastructure Engineer",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
@@ -70,7 +70,7 @@
 
 		// Product
 		{
-			title: "Developer Relations",
+			title: "MSP Relations Manager",
 			department: "Product",
 			location: "Remote",
 			type: "Full-time",
@@ -86,14 +86,14 @@
 
 		// Growth
 		{
-			title: "Community Manager",
+			title: "Cybersecurity Community Manager",
 			department: "Growth",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Web3 Marketing Lead",
+			title: "Enterprise Marketing Lead",
 			department: "Growth",
 			location: "Remote",
 			type: "Full-time",
@@ -104,30 +104,27 @@
 	const employeeTestimonials = [
 		{
 			name: "Alex Rivera",
-			position: "Blockchain Engineer",
+			position: "Blockchain Recovery Engineer",
 			company: "Engineering Team",
 			quote:
-				"Building infrastructure that will power the decentralized internet is incredibly rewarding. The technical challenges are complex and the mission is meaningful.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"Building infrastructure that guarantees recovery when traditional systems fail is incredibly rewarding. The technical challenges are complex and the mission is critical for business continuity.",
+			image: "/generated/image-an-enterprise-security-professional-anal.webp"
 		},
 		{
 			name: "Jordan Kim",
-			position: "Developer Relations",
+			position: "MSP Relations Manager",
 			company: "Product Team",
 			quote:
-				"Working at the intersection of Web3 and developer experience means I'm constantly learning. The impact of helping developers build censorship-resistant apps is huge.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"Working at the intersection of blockchain and enterprise recovery means I'm constantly learning. The impact of helping MSPs eliminate failed recovery attempts is transformative.",
+			image: "/generated/image-a-professional-woman-leading-a-cybersecu.webp"
 		},
 		{
 			name: "Maya Patel",
-			position: "Community Manager",
+			position: "Cybersecurity Community Manager",
 			company: "Growth Team",
 			quote:
-				"Being part of a team that's genuinely committed to user privacy and decentralization is inspiring. The community we're building around data sovereignty is passionate and engaged.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"Being part of a team that's genuinely committed to guaranteed recovery and data protection is inspiring. The community we're building around immutable verification is passionate and engaged.",
+			image: "/generated/image-a-happy-it-manager-standing-in-a-gritty-.webp"
 		}
 	];
 
@@ -136,7 +133,7 @@
 			step: 1,
 			title: "Apply",
 			description:
-				"Send us your resume or portfolio to patrick@jackallabs.io with a brief note about your interest in decentralized technologies."
+				"Send us your resume or portfolio to patrick@respawn.com with a brief note about your interest in blockchain recovery technologies."
 		},
 		{
 			step: 2,
@@ -153,15 +150,15 @@
 	const values = [
 		{
 			title: "Engineering excellence",
-			description: "Product is ideated, built, and shipped by engineers with real voice in direction and architecture decisions."
+			description: "Product is ideated, built, and shipped by engineers with real voice in direction and architecture decisions, ensuring guaranteed recovery works flawlessly."
 		},
 		{
-			title: "Privacy by design",
-			description: "We don't just build for user control and privacy—we organize around these principles as a team."
+			title: "Security by design",
+			description: "We don't just build for data protection—we organize around zero trust principles and immutable verification as a team."
 		},
 		{
-			title: "Decentralized thinking",
-			description: "We embrace distributed systems, autonomous work, and resistance to single points of failure in everything we do."
+			title: "Recovery-first thinking",
+			description: "We embrace distributed systems, autonomous work, and resistance to single points of failure in everything we do, ensuring recovery always works."
 		}
 	];
 </script>
@@ -169,9 +166,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Build the future of decentralized storage"
-	subtitle="Join our mission to create censorship-resistant, privacy-preserving cloud storage solutions. Work with cutting-edge Web3 technology alongside brilliant minds in a collaborative, remote-first environment."
-	imageSrc="/generated/image-a-diverse-team-of-developers-collaborati.webp"
+	title="Build the future of guaranteed recovery"
+	subtitle="Join our mission to eliminate failed recovery attempts and protect organizations from AI-powered attacks. Work with cutting-edge blockchain technology alongside brilliant minds in a collaborative, remote-first environment."
+	imageSrc="/generated/image-a-group-of-diverse-cybersecurity-profess.webp"
 />
 
 <!-- Why Join Us Section -->

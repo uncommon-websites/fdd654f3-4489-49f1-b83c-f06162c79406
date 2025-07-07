@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Jackal Labs",
-	description: "Building a decentralized cloud storage network that leverages the Cosmos SDK to provide censorship-resistant, privacy-preserving, and provable data storage solutions for Web3 applications and users.",
+	companyName: "Respawn",
+	description: "Building a blockchain-powered recovery network that provides immutable verification, parallel rehydration, and guaranteed recovery for organizations facing AI-powered cyber attacks, ransomware, and data loss.",
 	image: "/og.png",
-	url: "https://jackallabs.io",
+	url: "https://respawn.com",
 	fontFamily: "Inter Variable"
 };

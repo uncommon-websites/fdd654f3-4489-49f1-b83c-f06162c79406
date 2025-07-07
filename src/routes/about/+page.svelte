@@ -11,36 +11,36 @@
 	// Constants
 	const values = [
 		{
-			title: "Decentralization first",
-			description: "Every storage decision prioritizes distributing control across the network, eliminating single points of failure and ensuring true data sovereignty."
+			title: "Recovery first",
+			description: "Every architectural decision prioritizes guaranteed recovery over convenience, ensuring your data is always recoverable when you need it most, eliminating the 50% industry failure rate."
 		},
 		{
-			title: "Privacy by design",
-			description: "We architect cryptographic protection into every layer, ensuring your data remains yours and yours alone, with zero-knowledge proving its integrity."
+			title: "Immutable verification",
+			description: "We architect cryptographic verification into every layer, providing mathematical proof of data integrity that can't be tampered with, even by attackers with admin credentials."
 		},
 		{
-			title: "Censorship resistance",
-			description: "Building immutable infrastructure that preserves freedom of information, where no single entity can remove, modify, or block access to your data."
+			title: "Zero trust security",
+			description: "Building distributed infrastructure that trusts nothing and verifies everything, where no single entity can compromise your recovery capabilities or data integrity."
 		},
 		{
-			title: "Web3 native",
-			description: "Purpose-built for the decentralized web, with seamless integration into dApps and blockchain ecosystems through developer-friendly APIs."
+			title: "MSP focused",
+			description: "Purpose-built for Managed Service Providers and enterprise IT teams, with multi-tenant management and seamless integration into existing security workflows."
 		}
 	];
 </script>
 
 <SecondaryHero
-	title="Decentralizing the cloud"
-	subtitle="for a censorship-resistant future"
-	imageSrc="/mockups/airport-screen-1751894992432.png"
+	title="Guaranteed recovery"
+	subtitle="when traditional backups fail"
+	imageSrc="/generated/image-a-group-of-diverse-cybersecurity-profess.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"Back when cloud storage was becoming the norm, we started to ask a simple question: what happens when control isn't in your hands? We saw creators losing access to files overnight, platforms removing critical data, and governments pressuring providers to censor content. It didn't take much to realize that centralized storage wasn't just a technical risk—it was a threat to free expression and individual privacy in a connected world.",
-		"So we built something better. Using the Cosmos SDK, we created a decentralized cloud storage network designed for the future of the internet: one where data is distributed, encrypted, and provably stored—without needing to trust any one company. Our goal was never just to store files—it was to protect people's right to keep them, no matter who they are, or where they live. We kept developers in mind too, making Jackal accessible and easy to integrate into any Web3 app.",
-		"Jackal is more than code. It's a belief that privacy and persistence should be default, not deluxe. Whether you're a builder pushing the limits of Web3, or a user who wants their data to stay theirs, Jackal is here to give that control back to you. We're not just creating storage solutions—we're creating a freer internet where no voice gets erased."
+		"When we started seeing MSPs lose clients due to failed recovery attempts, we knew something had to change. Traditional backup solutions were failing 50% of the time when organizations needed them most. Ransomware attacks were getting more sophisticated, AI-powered threats were bypassing existing defenses, and businesses were losing millions because their 'guaranteed' backups simply didn't work when it mattered.",
+		"So we built something that actually works. Using blockchain technology, we created a recovery network that provides immutable verification and parallel rehydration—mathematical proof that your data is protected and can be recovered in minutes, not days. Our goal was never just to store backups—it was to guarantee recovery when traditional systems fail. We designed Respawn specifically for MSPs and enterprise IT teams who can't afford to let their clients down.",
+		"Respawn is more than technology. It's a commitment that recovery should be guaranteed, not hoped for. Whether you're an MSP protecting dozens of clients or an enterprise safeguarding critical operations, Respawn ensures your data is always recoverable. We're not just building backup solutions—we're building the recovery infrastructure that organizations can actually depend on when everything else fails."
 	]}
 />
 
@@ -51,7 +51,7 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to decentralize your data?"
-	subtitle="Build on the censorship-resistant cloud"
-	description="Join the Web3 developers and organizations already leveraging Jackal's decentralized storage network to create truly sovereign applications that can't be taken down or censored."
+	title="Ready to guarantee your recovery?"
+	subtitle="Join the founding members"
+	description="Join the MSPs and enterprises already leveraging Respawn's blockchain-powered recovery network to eliminate failed recovery attempts and protect against AI-powered attacks."
 />

@@ -11,119 +11,119 @@
 </script>
 
 <CenteredTextOnlyHero
-	title="Decentralized cloud storage for Web3"
-	subtitle="Censorship-resistant, privacy-preserving data storage built on Cosmos SDK. Store your data with complete control and unbreakable security."
-	imageSrc="/generated/image-a-serene-landscape-featuring-a-lush-fore.webp"
+	title="Guaranteed recovery when traditional backups fail"
+	subtitle="Blockchain-powered recovery network with immutable verification and parallel rehydration. Eliminate the 50% industry failure rate with recovery that works when you need it most."
+	imageSrc="/generated/image-a-professional-it-security-team-in-a-dim.webp"
 />
 <LogoScroller
-	label="Trusted by Web3 leaders"
+	label="Trusted by MSPs and enterprise IT leaders"
 	logoUrls={[
-		'https://logo.clearbit.com/polygon.technology',
-		'https://logo.clearbit.com/chainlink.com',
-		'https://logo.clearbit.com/uniswap.org',
-		'https://logo.clearbit.com/opensea.io'
+		'https://logo.clearbit.com/microsoft.com',
+		'https://logo.clearbit.com/cisco.com',
+		'https://logo.clearbit.com/vmware.com',
+		'https://logo.clearbit.com/dell.com'
 	]}
 />
 
 <Summary
 	title="What we do"
-	text="Jackal Labs builds a decentralized cloud storage network that provides censorship-resistant, privacy-preserving data storage for Web3 applications. Our platform leverages the Cosmos SDK to deliver provable data storage solutions that give users complete control over their data. We're creating the infrastructure that powers the next generation of decentralized applications."
+	text="Respawn is building a blockchain-powered recovery network that provides immutable verification, parallel rehydration, and guaranteed recovery for organizations facing AI-powered cyber attacks, ransomware, and data loss. Our platform eliminates the 50% industry failure rate in traditional recovery systems by offering cryptographically verified, distributed recovery that works when centralized solutions fail."
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Zara Okafor",
-			position: "Lead Developer",
-			company: "DeFi Nexus",
+			name: "Marcus Chen",
+			position: "CISO",
+			company: "TechFlow Industries",
 			quote:
-				"Jackal's decentralized storage reduced our deployment time by 60%. What used to take weeks of infrastructure setup now takes hours. The seamless integration with our Web3 stack eliminated countless bottlenecks.",
-			image: "/generated/image-a-professional-woman-coding-in-a-modern-.webp"
+				"After our traditional backup failed during a ransomware attack, Respawn's guaranteed recovery saved us from a $2M loss. The parallel rehydration got us back online in minutes, not days.",
+			image: "/generated/image-a-confident-ciso-standing-in-a-modern-of.webp"
 		},
 		{
-			name: "Kieran Volkov",
-			position: "Security Architect",
-			company: "CryptoVault Solutions",
+			name: "Sarah Rodriguez",
+			position: "MSP Operations Director",
+			company: "SecureNet Solutions",
 			quote:
-				"After the centralized cloud outage cost us $200K, we switched to Jackal. The censorship-resistant architecture and cryptographic proofs give us bulletproof data integrity. Zero single points of failure.",
-			image: "/generated/image-a-professional-man-in-a-tech-startup-wor.webp"
+				"Respawn's immutable verification gives our clients confidence that their recovery will work. We've eliminated failed recovery attempts and the reputation damage that comes with them.",
+			image: "/generated/image-a-professional-woman-leading-a-cybersecu.webp"
 		},
 		{
-			name: "Thalia Reeves",
-			position: "Head of Operations",
-			company: "BlockChain Media",
+			name: "David Kim",
+			position: "IT Director",
+			company: "MidMarket Manufacturing",
 			quote:
-				"Jackal cut our storage costs by 45% while improving reliability. The provable storage eliminates expensive audits and compliance overhead. Our CFO was amazed at the ROI within just three months.",
-			image: "/generated/image-a-professional-woman-presenting-in-a-cor.webp"
+				"The blockchain-powered verification means we can prove our data integrity to auditors instantly. Respawn turned our biggest compliance headache into our strongest security asset.",
+			image: "/generated/image-an-enterprise-security-professional-anal.webp"
 		}
 	]}
 />
 
 <Features
-	title="Why choose Jackal Labs"
-	subtitle="Decentralized cloud storage built for Web3"
+	title="Why choose Respawn"
+	subtitle="Blockchain-powered recovery that works when traditional backups fail"
 	features={[
 		{
-			title: "Censorship-resistant storage",
+			title: "Guaranteed recovery",
 			description:
-				"Your data remains accessible and immutable, protected from takedowns and centralized control with our decentralized network architecture."
+				"Eliminate the 50% industry failure rate with cryptographically verified recovery that works when you need it most, backed by immutable blockchain verification."
 		},
 		{
-			title: "Privacy-preserving encryption",
+			title: "Parallel rehydration",
 			description:
-				"Advanced cryptographic techniques ensure your data stays private and secure, with zero-knowledge proofs protecting your information from unauthorized access."
+				"Recover in minutes, not days, with simultaneous data streaming from multiple recovery nodes, dramatically reducing downtime costs and business impact."
 		},
 		{
-			title: "Provable data integrity",
+			title: "Immutable verification",
 			description:
-				"Cryptographically verify your data's integrity and availability with mathematical proofs that guarantee storage providers are maintaining your files correctly."
+				"Cryptographically prove your backup integrity with blockchain-based verification that can't be tampered with, even by attackers with admin credentials."
 		},
 		{
-			title: "Cosmos SDK interoperability",
+			title: "Zero trust architecture",
 			description:
-				"Built on the robust Cosmos SDK framework, enabling seamless integration with the broader Web3 ecosystem and cross-chain compatibility."
+				"Trust nothing, verify everything. Our distributed system eliminates single points of failure and provides mathematical proof of data integrity."
 		},
 		{
-			title: "Web3-native infrastructure",
+			title: "MSP-ready platform",
 			description:
-				"Purpose-built for decentralized applications with APIs and SDKs designed specifically for blockchain developers and Web3 use cases."
+				"Purpose-built for Managed Service Providers with multi-tenant management, white-label options, and seamless integration into existing workflows."
 		},
 		{
-			title: "Decentralized reliability",
+			title: "Compliance automation",
 			description:
-				"Eliminate single points of failure with distributed storage across multiple nodes, ensuring your data remains available even if individual providers go offline."
+				"Automatically generate compliance reports and audit trails with cryptographic proof of data protection, eliminating manual verification processes."
 		}
 	]}
 />
 
 <UseCases
 	title="Use Cases"
-	subtitle="Real-world applications for decentralized cloud storage"
+	subtitle="Real-world applications for guaranteed recovery"
 	useCases={[
 		{
-			title: "Web3 application development",
-			description: "Build decentralized applications with confidence using censorship-resistant storage that can't be taken down or manipulated by centralized authorities. Our infrastructure ensures your dApp's data remains available and immutable, providing the reliability your users expect from Web3 applications.",
-			image: "/generated/image-a-diverse-group-of-web3-developers-colla.webp",
+			title: "MSP service differentiation",
+			description: "Stand out from competitors by offering guaranteed recovery that actually works. Eliminate the reputation damage from failed recovery attempts and provide your clients with cryptographically verified data protection that traditional backup solutions can't match.",
+			image: "/generated/image-a-technician-working-in-a-server-room-wi.webp",
 			link: {
-				href: "/use-cases/web3-development",
+				href: "/use-cases/msp-services",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Decentralized network infrastructure",
-			description: "Scale your blockchain infrastructure with distributed storage that eliminates single points of failure and provides global data availability. Our network ensures your critical data remains accessible across all nodes, supporting the decentralized future of the internet.",
-			image: "/generated/image-an-international-team-of-professionals-i.webp",
+			title: "Enterprise ransomware protection",
+			description: "Protect your organization from the growing threat of AI-powered ransomware attacks with immutable verification and parallel recovery. When attackers compromise your primary systems, Respawn ensures your data remains intact and recoverable.",
+			image: "/generated/image-a-cybersecurity-expert-presenting-to-a-g.webp",
 			link: {
-				href: "/use-cases/network-infrastructure",
+				href: "/use-cases/ransomware-protection",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Privacy-first data protection",
-			description: "Protect sensitive information with zero-knowledge encryption and provable privacy guarantees that keep your data secure from unauthorized access. Our cryptographic proofs ensure that only you can access your data, while still enabling verification of storage integrity.",
-			image: "/generated/image-a-group-of-security-experts-in-a-cozy-we.webp",
+			title: "Compliance and audit readiness",
+			description: "Automatically generate compliance reports with cryptographic proof of data integrity and availability. Eliminate manual audit processes and provide regulators with mathematical verification of your data protection capabilities.",
+			image: "/generated/image-a-security-architect-reviewing-recovery-.webp",
 			link: {
-				href: "/use-cases/privacy-protection",
+				href: "/use-cases/compliance",
 				label: "Learn more"
 			}
 		}
@@ -132,13 +132,13 @@
 
 <AboutTeaser />
 <CallToAction 
-	title="Ready to build on Web3?" 
-	subtitle="Start storing today"
-	description="Join the decentralized revolution with censorship-resistant, privacy-preserving storage that puts you in control. Get started with Jackal Labs and experience the future of data storage."
-	imageSrc="/generated/image-a-joyful-developer-in-a-casual-office-se.webp"
+	title="Ready to guarantee your recovery?" 
+	subtitle="Join the founding members"
+	description="Eliminate failed recovery attempts and protect your organization from the growing threat of AI-powered attacks. Join the MSPs and enterprises already leveraging Respawn's guaranteed recovery network."
+	imageSrc="/generated/image-an-it-team-celebrating-a-successful-data.webp"
 	callsToAction={[
 		{
-			href: "mailto:patrick@jackallabs.io",
+			href: "mailto:patrick@respawn.com",
 			label: "Get started",
 			variant: "primary"
 		},
