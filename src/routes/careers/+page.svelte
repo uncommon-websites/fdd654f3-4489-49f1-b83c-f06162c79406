@@ -180,7 +180,7 @@
 
 <SecondaryHero
 	title="Build the system the internet leans on"
-	subtitle="Respawn is building the world's first blockchain-verified cyber recovery network to eliminate the 50% failure rate of traditional backups. This isn't another SaaS tool. It's business continuity infrastructure that businesses depend on when everything else breaks."
+	subtitle="Building blockchain-verified recovery infrastructure that never fails."
 	imageSrc="/generated/image-diverse-cybersecurity-professionals-coll.webp"
 />
 
