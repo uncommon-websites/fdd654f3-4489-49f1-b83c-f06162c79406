@@ -188,7 +188,7 @@
 <section class={SECTION_BASE_CLASSES}>
 	<SectionHeader
 		title="Why join us?"
-		subtitle="Today, ransomware is faster, cheaper, and more automated thanks to AI. Most organizations play defense with outdated assumptions and optimistic restore buttons that blink red when needed most. We're flipping disaster recovery on its head—replacing hope with auditability."
+		subtitle="Replace hope with guaranteed recovery infrastructure."
 	/>
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
