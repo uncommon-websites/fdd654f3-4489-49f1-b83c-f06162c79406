@@ -17,40 +17,36 @@
 <Testimonials
 	testimonials={[
 		{
-			name: "Zara Ashenafi",
-			position: "Blockchain Developer",
-			company: "DeFi Collective",
+			name: "Marcus Chen",
+			position: "CISO",
+			company: "TechFlow Industries",
 			quote:
-				"Jackal reduced our storage costs by 60% while giving us complete control over our data. The ROI was immediate and the integration took just days, not weeks.",
-			image:
-				"/generated/image-a-confident-ethiopian-woman-in-a-busines.webp"
+				"After our traditional backup failed during a ransomware attack, Respawn's guaranteed recovery saved us from a $2M loss. The parallel rehydration got us back online in minutes, not days.",
+			image: "/generated/image-a-confident-it-security-leader-standing-.webp"
 		},
 		{
-			name: "Kyung-ho Park",
-			position: "DevOps Engineer",
-			company: "Web3 Ventures",
+			name: "Sarah Rodriguez",
+			position: "MSP Operations Director",
+			company: "SecureNet Solutions",
 			quote:
-				"The ease of use blew me away. Jackal's APIs are intuitive and the documentation is stellar. We migrated our entire infrastructure with zero downtime.",
-			image:
-				"/generated/image-a-confident-korean-man-in-a-corporate-en.webp"
+				"Respawn's immutable verification gives our clients confidence that their recovery will work. We've eliminated failed recovery attempts and the reputation damage that comes with them.",
+			image: "/generated/image-an-msp-operations-director-in-a-secure-s.webp"
 		},
 		{
-			name: "Esperanza Morales",
-			position: "Startup Founder",
-			company: "ChainLink Analytics",
+			name: "David Kim",
+			position: "IT Director",
+			company: "MidMarket Manufacturing",
 			quote:
-				"Jackal's provable storage gives our users confidence that their data is truly secure. The transparency and censorship resistance are game-changers for our platform.",
-			image:
-				"/generated/image-a-confident-hispanic-woman-in-an-office-.webp"
+				"The blockchain-powered verification means we can prove our data integrity to auditors instantly. Respawn turned our biggest compliance headache into our strongest security asset.",
+			image: "/generated/image-an-it-director-reviewing-systems-in-a-se.webp"
 		},
 		{
-			name: "Amara Khaled",
+			name: "Elena Vasquez",
 			position: "Security Architect",
-			company: "Quantum Safe",
+			company: "Financial Services Corp",
 			quote:
-				"The value proposition is unmatched. Jackal delivers enterprise-grade security at a fraction of traditional cloud costs, with none of the vendor lock-in risks.",
-			image:
-				"/generated/image-a-confident-arab-man-in-a-business-envir.webp"
+				"The value proposition is unmatched. Respawn delivers enterprise-grade recovery at a fraction of traditional disaster recovery costs, with mathematical proof of data integrity.",
+			image: "/generated/image-an-enterprise-security-professional-anal.webp"
 		}
 	]}
 />

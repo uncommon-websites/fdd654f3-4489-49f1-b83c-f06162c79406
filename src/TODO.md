@@ -1,17 +1,50 @@
-# Task: Update Testimonials Section on Pricing Page
+# Task: Update Entire Website for New Respawn Company Context
 
-- [x] View current pricing page structure and testimonials section
-- [x] Generate professional headshots for diverse testimonials (4 images, 3:4 aspect ratio)
-- [x] Write compelling testimonials focused on value, ROI, and ease of use
-- [x] Update testimonials section with new content and images
-- [x] Ensure images match gender and ethnicity of names used
-- [x] Test that all testimonials display properly
-- [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
+## Overview
+Update all website content, copy, and imagery to align with Respawn's identity as a blockchain-powered cyber recovery network that eliminates the 50% failure rate in traditional backup systems.
 
-- [x] Review current pricing page structure
-- [x] Update pricing tiers to match decentralized storage offerings (Developer, Pro, Enterprise)
-- [x] Update feature lists to be relevant for Web3 storage solutions
-- [x] Ensure pricing makes sense for Web3 developers and target market
-- [x] Update plan names and descriptions for decentralized cloud storage
-- [x] Add features like censorship resistance, privacy preservation, provable storage
-- [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
+## Tasks
+
+### Content Strategy & Copy Updates
+- [x] Generate new professional copy for all sections using writeCopy tool
+- [x] Update home page hero messaging to emphasize guaranteed recovery
+- [x] Refresh about page story to focus on solving backup failure problems
+- [x] Update careers page to reflect cybersecurity/recovery mission
+- [x] Revise pricing page content for MSP/enterprise audience
+- [x] Update testimonials to be more specific to recovery scenarios
+- [x] Refresh use cases to focus on MSP services, ransomware protection, compliance
+
+### Image Generation & Visual Updates
+- [x] Generate new hero images focused on cybersecurity professionals
+- [x] Create images for testimonials showing IT leaders and security experts
+- [x] Generate use case images showing server rooms, security operations
+- [x] Create about page images showing diverse cybersecurity teams
+- [x] Generate careers page images showing technical teams
+- [x] Update call-to-action images to show successful recovery scenarios
+
+### Component Content Updates
+- [x] Update Features section with more specific recovery benefits
+- [x] Refresh LogoScroller with relevant cybersecurity/enterprise logos
+- [x] Update Summary section with clearer value proposition
+- [x] Revise CallToAction components with stronger recovery messaging
+- [x] Update Culture/Values sections to reflect security-first mindset
+
+### Page-Specific Updates
+- [x] Home page: Enhance hero, features, testimonials, use cases
+- [x] About page: Rewrite story section, update culture values
+- [x] Careers page: Update job listings, benefits, company culture
+- [x] Pricing page: Ensure testimonials align with recovery focus
+
+### Technical & Polish
+- [ ] Ensure all new content follows sentence case standards
+- [ ] Verify all images have proper aspect ratios
+- [ ] Check that all copy flows naturally and sounds professional
+- [ ] Validate all links and CTAs work correctly
+- [ ] Test responsive design with new content
+
+### Final Quality Assurance
+- [ ] Review entire site for consistency in messaging
+- [ ] Ensure all content aligns with Respawn's value proposition
+- [ ] Verify testimonials feel authentic and specific
+- [ ] Check that technical details are accurate
+- [ ] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css

@@ -11,9 +11,9 @@
 </script>
 
 <CenteredTextOnlyHero
-	title="Guaranteed recovery when traditional backups fail"
-	subtitle="Blockchain-powered recovery network with immutable verification and parallel rehydration. Eliminate the 50% industry failure rate with recovery that works when you need it most."
-	imageSrc="/generated/image-a-professional-it-security-team-in-a-dim.webp"
+	title="Guaranteed recovery. Always."
+	subtitle="Respawn is the zero-trust cyber recovery network that eliminates the 50% failure rate of traditional backups. Powered by blockchain and architected for resilience, Respawn guarantees instant access to tamper-proof, live-verified backups—ready the moment recovery matters most."
+	imageSrc="/generated/image-a-professional-cybersecurity-team-engage.webp"
 />
 <LogoScroller
 	label="Trusted by MSPs and enterprise IT leaders"
@@ -26,8 +26,8 @@
 />
 
 <Summary
-	title="What we do"
-	text="Respawn is building a blockchain-powered recovery network that provides immutable verification, parallel rehydration, and guaranteed recovery for organizations facing AI-powered cyber attacks, ransomware, and data loss. Our platform eliminates the 50% industry failure rate in traditional recovery systems by offering cryptographically verified, distributed recovery that works when centralized solutions fail."
+	title="Not just storage. A new survival layer for your data."
+	text="Traditional backups fail when you need them most. Most systems boast scheduled backups, but still break during breaches. Why? Because they rely on trust, static mirrors, or cloud infrastructure from providers targeted in the very threats you're trying to recover from. 50% failure rate. Days to restore. In today's attacks, that's too late."
 />
 
 <Testimonials
@@ -38,7 +38,7 @@
 			company: "TechFlow Industries",
 			quote:
 				"After our traditional backup failed during a ransomware attack, Respawn's guaranteed recovery saved us from a $2M loss. The parallel rehydration got us back online in minutes, not days.",
-			image: "/generated/image-a-confident-ciso-standing-in-a-modern-of.webp"
+			image: "/generated/image-a-confident-it-security-leader-standing-.webp"
 		},
 		{
 			name: "Sarah Rodriguez",
@@ -46,7 +46,7 @@
 			company: "SecureNet Solutions",
 			quote:
 				"Respawn's immutable verification gives our clients confidence that their recovery will work. We've eliminated failed recovery attempts and the reputation damage that comes with them.",
-			image: "/generated/image-a-professional-woman-leading-a-cybersecu.webp"
+			image: "/generated/image-an-msp-operations-director-in-a-secure-s.webp"
 		},
 		{
 			name: "David Kim",
@@ -54,56 +54,56 @@
 			company: "MidMarket Manufacturing",
 			quote:
 				"The blockchain-powered verification means we can prove our data integrity to auditors instantly. Respawn turned our biggest compliance headache into our strongest security asset.",
-			image: "/generated/image-an-enterprise-security-professional-anal.webp"
+			image: "/generated/image-an-it-director-reviewing-systems-in-a-se.webp"
 		}
 	]}
 />
 
 <Features
-	title="Why choose Respawn"
-	subtitle="Blockchain-powered recovery that works when traditional backups fail"
+	title="Business continuity that won't break"
+	subtitle="No passwords to trust. No single vendor to fail. No risky restores from assumed-clean systems."
 	features={[
 		{
-			title: "Guaranteed recovery",
+			title: "Guaranteed restore success",
 			description:
-				"Eliminate the 50% industry failure rate with cryptographically verified recovery that works when you need it most, backed by immutable blockchain verification."
+				"Streams clean, verified data from multiple geo-distributed nodes in parallel for real, immediate recovery."
 		},
 		{
-			title: "Parallel rehydration",
+			title: "Zero-trust, by design",
 			description:
-				"Recover in minutes, not days, with simultaneous data streaming from multiple recovery nodes, dramatically reducing downtime costs and business impact."
+				"Every upload, download, and config change is written to an immutable on-chain audit log. Visibility and provenance from byte one."
 		},
 		{
-			title: "Immutable verification",
+			title: "Resilient means recoverable",
 			description:
-				"Cryptographically prove your backup integrity with blockchain-based verification that can't be tampered with, even by attackers with admin credentials."
+				"Even if one zone or region goes dark, others activate instantly. Respawn is always live and rebuilds redundancy every 24 hours—without human help."
 		},
 		{
-			title: "Zero trust architecture",
+			title: "No more single point of failure",
 			description:
-				"Trust nothing, verify everything. Our distributed system eliminates single points of failure and provides mathematical proof of data integrity."
+				"Backups split and streamed across resilient mesh nodes on different infrastructure, in separate locations."
 		},
 		{
-			title: "MSP-ready platform",
+			title: "Every action, recorded",
 			description:
-				"Purpose-built for Managed Service Providers with multi-tenant management, white-label options, and seamless integration into existing workflows."
+				"Edits, restores, admin commands—even access attempts—are written on-chain and preserved forever."
 		},
 		{
-			title: "Compliance automation",
+			title: "No human intervention required",
 			description:
-				"Automatically generate compliance reports and audit trails with cryptographic proof of data protection, eliminating manual verification processes."
+				"The network continually checks and restores 3x redundancy with automated data self-healing."
 		}
 	]}
 />
 
 <UseCases
-	title="Use Cases"
-	subtitle="Real-world applications for guaranteed recovery"
+	title="Be ready for the day your backups fail"
+	subtitle="Inside hospitals, air-gapped finance teams, and manufacturing plants that can't afford downtime, Respawn picks up where your disaster plan ends."
 	useCases={[
 		{
 			title: "MSP service differentiation",
 			description: "Stand out from competitors by offering guaranteed recovery that actually works. Eliminate the reputation damage from failed recovery attempts and provide your clients with cryptographically verified data protection that traditional backup solutions can't match.",
-			image: "/generated/image-a-technician-working-in-a-server-room-wi.webp",
+			image: "/generated/image-cybersecurity-professionals-working-in-a.webp",
 			link: {
 				href: "/use-cases/msp-services",
 				label: "Learn more"
@@ -111,17 +111,17 @@
 		},
 		{
 			title: "Enterprise ransomware protection",
-			description: "Protect your organization from the growing threat of AI-powered ransomware attacks with immutable verification and parallel recovery. When attackers compromise your primary systems, Respawn ensures your data remains intact and recoverable.",
-			image: "/generated/image-a-cybersecurity-expert-presenting-to-a-g.webp",
+			description: "Stops malware from reextracting through backup restores. Shields from insider threats that exploit root privileges. Detects and routes around silent node failures or misconfigurations.",
+			image: "/generated/image-a-security-architect-presenting-solution.webp",
 			link: {
 				href: "/use-cases/ransomware-protection",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Compliance and audit readiness",
-			description: "Automatically generate compliance reports with cryptographic proof of data integrity and availability. Eliminate manual audit processes and provide regulators with mathematical verification of your data protection capabilities.",
-			image: "/generated/image-a-security-architect-reviewing-recovery-.webp",
+			title: "Full stack recovery in sync",
+			description: "Recovers full, distributed stacks in sync—with a single command. Recovery plans you can read at a glance with a visual dashboard of your environment's integrity, restore ability, audit logs, and sync timelines.",
+			image: "/generated/image-a-technical-team-building-infrastructure.webp",
 			link: {
 				href: "/use-cases/compliance",
 				label: "Learn more"
@@ -132,14 +132,14 @@
 
 <AboutTeaser />
 <CallToAction 
-	title="Ready to guarantee your recovery?" 
-	subtitle="Join the founding members"
-	description="Eliminate failed recovery attempts and protect your organization from the growing threat of AI-powered attacks. Join the MSPs and enterprises already leveraging Respawn's guaranteed recovery network."
-	imageSrc="/generated/image-an-it-team-celebrating-a-successful-data.webp"
+	title="Your infrastructure isn't bulletproof. Your recovery should be." 
+	subtitle="This isn't backup. This is uncompromising recovery."
+	description="Talk to our executive team to pinpoint where your current risk lives—and how Respawn guarantees verified, breach-resilient recovery across every stack in your environment."
+	imageSrc="/generated/image-an-it-team-successfully-restoring-critic.webp"
 	callsToAction={[
 		{
 			href: "mailto:patrick@respawn.com",
-			label: "Get started",
+			label: "Book time with our founders",
 			variant: "primary"
 		},
 		{

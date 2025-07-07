@@ -1,9 +1,9 @@
-<script>
+<script lang="ts">
 	import Button from "$lib/components/ui/Button.svelte";
 	import Card from "$lib/components/ui/Card.svelte";
 	import Features from "$lib/components/layout/Features.svelte";
 
-	// Icons - temporarily removed due to build issues
+	// Icons temporarily removed due to import issues
 	// import IconZap from "~icons/lucide/zap";
 	// import IconShield from "~icons/lucide/shield";
 	// import IconUsers from "~icons/lucide/users";
@@ -497,8 +497,7 @@
 				},
 				{
 					title: "SSL certificates",
-					description: "Free SSL certificates for all domains.",
-					icon: IconShield
+					description: "Free SSL certificates for all domains."
 				},
 				{
 					title: "Developer tools",
@@ -508,13 +507,11 @@
 				},
 				{
 					title: "User management",
-					description: "Role-based access control system.",
-					icon: IconUsers
+					description: "Role-based access control system."
 				},
 				{
 					title: "Machine learning",
 					description: "AI-powered recommendations and insights.",
-					icon: IconZap,
 					imageSrc:
 						"https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
 				},

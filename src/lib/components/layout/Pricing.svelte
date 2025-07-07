@@ -28,6 +28,7 @@ Please update features according to the company's product offering. Do not remov
 	// Components
 	import Button from "$lib/components/ui/Button.svelte";
 	import SectionHeader from "./SectionHeader.svelte";
+	// Icons temporarily removed due to import issues
 	// import IconCheck from "~icons/lucide/check";
 	// import IconX from "~icons/lucide/x";
 	import NumberFlow from "@number-flow/svelte";
@@ -270,7 +271,7 @@ Please update features according to the company's product offering. Do not remov
 					<ul class="space-y-3">
 						{#each tier.features as feature}
 							<li class="flex items-center gap-2">
-								<IconCheck class="text-primary size-5 flex-shrink-0" />
+								<div class="text-primary size-5 flex-shrink-0">✓</div>
 								<span class="text-body text-emphasis-medium">{feature}</span>
 							</li>
 						{/each}
@@ -368,9 +369,9 @@ Please update features according to the company's product offering. Do not remov
 									<td class="py-3">
 										{#if typeof feature.tiers[tierName] === "boolean"}
 											{#if feature.tiers[tierName]}
-												<IconCheck class="text-primary size-5" />
+												<div class="text-primary size-5">✓</div>
 											{:else}
-												<IconX class="text-muted-foreground size-5" />
+												<div class="text-muted-foreground size-5">✗</div>
 											{/if}
 										{:else}
 											<span class="text-callout text-emphasis-medium font-medium">

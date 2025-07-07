@@ -9,11 +9,10 @@
 	import Card from "$lib/components/ui/Card.svelte";
 	import JobList, { type JobOpening } from "./JobList.svelte";
 
-	// Icons - temporarily commented out due to build issues
-	// import IconBriefcase from "~icons/lucide/briefcase";
-	// import IconUsers from "~icons/lucide/users";
-	// import IconHeart from "~icons/lucide/heart";
-	// import IconGlobe from "~icons/lucide/globe";
+	// Icons
+	import IconBriefcase from "~icons/lucide/briefcase";
+	import IconUsers from "~icons/lucide/users";
+	import IconHeart from "~icons/lucide/heart";
 
 	// Constants
 	const SECTION_BASE_CLASSES = "section-py section-px container mx-auto";
@@ -24,22 +23,19 @@
 
 	const benefits = [
 		{
-			title: "Push boundaries with cutting-edge technology",
+			title: "Make 'recover in minutes' the new normal",
 			description:
-				"Build with the Cosmos SDK, zero-knowledge proofs, and provable storage systems. Our tech stack supports some of the most advanced use cases in blockchain today.",
-			icon: IconBriefcase
+				"Design, build, and scale the backbone that cuts ransomware downtime from weeks to minutes. Work on blockchain-verified backup primitives and high-availability node networks with real-time healing."
 		},
 		{
-			title: "Join a mission with meaning",
+			title: "Work on what actually matters",
 			description:
-				"We're not here to chase trends—we're here to protect digital rights. At Jackal, your work directly supports user privacy, data ownership, and decentralization.",
-			icon: IconUsers
+				"Level the playing field with AI-powered attackers as an engineer, not just a bystander. Build data protection architectures for unplanned chaos, not calm sunny days."
 		},
 		{
-			title: "Work from anywhere, with trust",
+			title: "Everything we build is tested by failure",
 			description:
-				"We're a remote-first team that values autonomy, clear communication, and asynchronous workflows. Contribute on your schedule—what matters is what you deliver, not where you work.",
-			icon: IconHeart
+				"We prototype in real-world failover scenarios. Our baseline question isn't 'have we shipped it,' but 'did it hold under actual compromise?' If you find that both daunting and exhilarating, join us."
 		}
 	];
 
@@ -122,7 +118,7 @@
 			company: "Product Team",
 			quote:
 				"Working at the intersection of blockchain and enterprise recovery means I'm constantly learning. The impact of helping MSPs eliminate failed recovery attempts is transformative.",
-			image: "/generated/image-a-professional-woman-leading-a-cybersecu.webp"
+			image: "/generated/image-an-msp-operations-director-in-a-secure-s.webp"
 		},
 		{
 			name: "Maya Patel",
@@ -130,7 +126,7 @@
 			company: "Growth Team",
 			quote:
 				"Being part of a team that's genuinely committed to guaranteed recovery and data protection is inspiring. The community we're building around immutable verification is passionate and engaged.",
-			image: "/generated/image-a-happy-it-manager-standing-in-a-gritty-.webp"
+			image: "/generated/image-a-confident-it-security-leader-standing-.webp"
 		}
 	];
 
@@ -139,7 +135,7 @@
 			step: 1,
 			title: "Apply",
 			description:
-				"Send your resume or GitHub link with a short note about which role interests you to patrick@jackallabs.io."
+				"Send your resume or GitHub link with a short note about which role interests you to careers@respawn.network."
 		},
 		{
 			step: 2,
@@ -163,22 +159,19 @@
 
 	const values = [
 		{
-			icon: IconHeart,
-			title: "Think long term",
+			title: "Zero tolerance for failure",
 			description:
-				"We're building infrastructure for decades to come. Decisions are made with staying power in mind—not quick wins."
+				"We're building infrastructure that businesses depend on when everything else breaks. Every decision is made with the understanding that failure isn't an option."
 		},
 		{
-			icon: IconUsers,
-			title: "Code with integrity",
+			title: "Bias for deep thinking",
 			description:
-				"We care about usefulness, transparency, and building products that solve real problems—not chasing hype."
+				"We speak clearly, especially when things are complicated. Documentation-first, egoless iteration, quality over clever tricks."
 		},
 		{
-			icon: IconGlobe,
-			title: "Stay open by default",
+			title: "Tested by reality",
 			description:
-				"We believe in transparent decision-making and open collaboration—with each other and with our community."
+				"We prototype in real-world failover scenarios. Our baseline question isn't 'have we shipped it,' but 'did it hold under actual compromise?'"
 		}
 	];
 </script>
@@ -186,16 +179,16 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Build the system the internet leans on"
+	subtitle="Respawn is building the world's first blockchain-verified cyber recovery network to eliminate the 50% failure rate of traditional backups. This isn't another SaaS tool. It's business continuity infrastructure that businesses depend on when everything else breaks."
+	imageSrc="/generated/image-a-technical-team-building-infrastructure.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
 	<SectionHeader
 		title="Why join us?"
-		subtitle="Make an impact on the decentralized future. Work on critical Web3 infrastructure that powers censorship-resistant, privacy-first cloud storage."
+		subtitle="Today, ransomware is faster, cheaper, and more automated thanks to AI. Most organizations play defense with outdated assumptions and optimistic restore buttons that blink red when needed most. We're flipping disaster recovery on its head—replacing hope with auditability."
 	/>
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
