@@ -98,7 +98,7 @@
 
 <div
 	style:--nav-height="{navHeight.current}px"
-	class="isolate bg-inherit"
+	class="isolate bg-background"
 	class:touch={isTouchDevice.current === true}
 	class:no-touch={isTouchDevice.current !== true}
 >

@@ -1,7 +1,7 @@
 @theme inline {
 	/* Theming */
-	--color-background: var(--color-white);
-	--color-foreground: var(--color-gray-950);
+	--color-background: linear-gradient(135deg, oklch(0.97 0.02 220), oklch(0.95 0.03 210));
+	--color-foreground: oklch(0.35 0.01 45);
 
 	--color-card: var(--color-gray-50);
 	--color-card-foreground: var(--color-gray-950);
@@ -10,8 +10,8 @@
 	--color-popover: var(--color-white);
 	--color-popover-foreground: var(--color-gray-950);
 
-	--color-primary: var(--color-primary-600);
-	--color-primary-foreground: var(--color-primary-50);
+	--color-primary: oklch(0.55 0.12 180);
+	--color-primary-foreground: oklch(0.98 0.01 180);
 
 	--color-secondary: var(--color-secondary-100);
 	--color-secondary-foreground: var(--color-secondary-900);
@@ -19,8 +19,8 @@
 	--color-muted: var(--color-primary-50);
 	--color-muted-foreground: var(--color-primary-600);
 
-	--color-accent: var(--color-primary-50);
-	--color-accent-foreground: var(--color-primary-700);
+	--color-accent: oklch(0.55 0.12 180);
+	--color-accent-foreground: oklch(0.98 0.01 180);
 
 	--color-destructive: color-mix(in oklch, var(--color-primary-500), var(--color-secondary-500));
 
