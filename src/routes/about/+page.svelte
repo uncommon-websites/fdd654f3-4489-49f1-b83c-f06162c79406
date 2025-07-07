@@ -31,7 +31,7 @@
 
 <SecondaryHero
 	title="Recovery you can trust"
-	subtitle="because we couldn't"
+	subtitle="Built by founders who witnessed backup failures"
 	imageSrc="/generated/image-diverse-cybersecurity-professionals-coll.webp"
 />
 
