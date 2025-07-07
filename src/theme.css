@@ -16,11 +16,11 @@
 	--color-secondary: var(--color-secondary-100);
 	--color-secondary-foreground: var(--color-secondary-900);
 
-	--color-muted: var(--color-gray-100);
-	--color-muted-foreground: var(--color-gray-500);
+	--color-muted: var(--color-primary-50);
+	--color-muted-foreground: var(--color-primary-600);
 
-	--color-accent: var(--color-gray-100);
-	--color-accent-foreground: var(--color-gray-900);
+	--color-accent: var(--color-primary-50);
+	--color-accent-foreground: var(--color-primary-700);
 
 	--color-destructive: color-mix(in oklch, var(--color-primary-500), var(--color-secondary-500));
 
@@ -38,8 +38,8 @@
 	--color-sidebar-foreground: var(--color-gray-950);
 	--color-sidebar-primary: var(--color-primary-600);
 	--color-sidebar-primary-foreground: var(--color-primary-50);
-	--color-sidebar-accent: var(--color-gray-100);
-	--color-sidebar-accent-foreground: var(--color-gray-900);
+	--color-sidebar-accent: var(--color-primary-50);
+	--color-sidebar-accent-foreground: var(--color-primary-700);
 	--color-sidebar-border: var(--color-gray-200);
 	--color-sidebar-ring: var(--color-primary-600);
 

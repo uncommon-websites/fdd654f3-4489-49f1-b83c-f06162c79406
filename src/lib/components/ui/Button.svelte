@@ -33,9 +33,9 @@
 
 	// Styles
 	const variants: Record<Variant, string> = {
-		primary: "",
-		secondary: "",
-		ghost: ""
+		primary: "bg-primary-600 text-primary-50 hover:bg-primary-700 border border-primary-600 hover:border-primary-700",
+		secondary: "bg-primary-50 text-primary-700 hover:bg-primary-100 border border-primary-200 hover:border-primary-300",
+		ghost: "bg-transparent text-primary-600 hover:bg-primary-50 hover:text-primary-700 border border-transparent hover:border-primary-200"
 	};
 
 	const sizes: Record<Size, string> = $derived({
