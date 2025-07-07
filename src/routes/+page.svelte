@@ -13,7 +13,7 @@
 <CenteredTextOnlyHero
 	title="Guaranteed recovery. Always."
 	subtitle="Respawn is the zero-trust cyber recovery network that eliminates the 50% failure rate of traditional backups. Powered by blockchain and architected for resilience, Respawn guarantees instant access to tamper-proof, live-verified backups—ready the moment recovery matters most."
-	imageSrc="/generated/image-a-professional-cybersecurity-team-engage.webp"
+	imageSrc="/generated/image-a-professional-team-of-cybersecurity-exp.webp"
 />
 <LogoScroller
 	label="Trusted by MSPs and enterprise IT leaders"
@@ -38,7 +38,7 @@
 			company: "TechFlow Industries",
 			quote:
 				"After our traditional backup failed during a ransomware attack, Respawn's guaranteed recovery saved us from a $2M loss. The parallel rehydration got us back online in minutes, not days.",
-			image: "/generated/image-a-confident-it-security-leader-standing-.webp"
+			image: "/generated/image-a-confident-it-security-manager-standing.webp"
 		},
 		{
 			name: "Sarah Rodriguez",

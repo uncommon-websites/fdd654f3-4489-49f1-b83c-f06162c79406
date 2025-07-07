@@ -63,7 +63,7 @@ Takes up the full viewport height and centers content vertically.
 			{#if callsToAction.length > 0}
 				<div class="mt-8 flex gap-4" data-enter>
 					{#each callsToAction as cta, index}
-						<Button href={cta.href} size="lg" variant="secondary" class="text-black max-lg:hidden"
+						<Button href={cta.href} size="lg" variant="secondary" class="text-white max-lg:hidden"
 							>{cta.label}</Button
 						>
 						<Button
