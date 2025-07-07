@@ -32,7 +32,7 @@
 <SecondaryHero
 	title="Recovery you can trust"
 	subtitle="because we couldn't"
-	imageSrc="/generated/image-a-diverse-cybersecurity-team-celebrating.webp"
+	imageSrc="/generated/image-diverse-cybersecurity-professionals-coll.webp"
 />
 
 <!-- Story Section -->

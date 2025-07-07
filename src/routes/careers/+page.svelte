@@ -118,7 +118,7 @@
 			company: "Product Team",
 			quote:
 				"Working at the intersection of blockchain and enterprise recovery means I'm constantly learning. The impact of helping MSPs eliminate failed recovery attempts is transformative.",
-			image: "/generated/image-an-msp-operations-director-in-a-secure-s.webp"
+			image: "/generated/image-an-msp-operations-director-leading-a-cyb.webp"
 		},
 		{
 			name: "Maya Patel",
@@ -181,7 +181,7 @@
 <SecondaryHero
 	title="Build the system the internet leans on"
 	subtitle="Respawn is building the world's first blockchain-verified cyber recovery network to eliminate the 50% failure rate of traditional backups. This isn't another SaaS tool. It's business continuity infrastructure that businesses depend on when everything else breaks."
-	imageSrc="/generated/image-a-technical-team-building-infrastructure.webp"
+	imageSrc="/generated/image-diverse-cybersecurity-professionals-coll.webp"
 />
 
 <!-- Why Join Us Section -->

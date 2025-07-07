@@ -3,12 +3,12 @@
 	import Card from "$lib/components/ui/Card.svelte";
 	import Features from "$lib/components/layout/Features.svelte";
 
-	// Icons
-	import IconZap from "~icons/lucide/zap";
-	import IconShield from "~icons/lucide/shield";
-	import IconUsers from "~icons/lucide/users";
-	import IconSettings from "~icons/lucide/settings";
-	import IconPalette from "~icons/lucide/palette";
+	// Icons temporarily removed due to import issues
+	// import IconZap from "~icons/lucide/zap";
+	// import IconShield from "~icons/lucide/shield";
+	// import IconUsers from "~icons/lucide/users";
+	// import IconSettings from "~icons/lucide/settings";
+	// import IconPalette from "~icons/lucide/palette";
 
 	// Theme controls
 	let themeRadius = $state(8); // 0.5rem = 8px
@@ -472,13 +472,11 @@
 				},
 				{
 					title: "24/7 support",
-					description: "Round-the-clock customer assistance.",
-					icon: IconUsers
+					description: "Round-the-clock customer assistance."
 				},
 				{
 					title: "Advanced reporting",
 					description: "Detailed insights and custom reports.",
-					icon: IconShield,
 					imageSrc:
 						"https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
 				}
