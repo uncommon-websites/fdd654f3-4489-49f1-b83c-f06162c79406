@@ -1,8 +1,8 @@
 // Types
 import { CONFIG } from "$lib/content";
-import type { LayoutServerLoad } from "@sveltejs/kit";
+import type { ServerLoad } from "@sveltejs/kit";
 
-export const load: LayoutServerLoad = async () => {
+export const load: ServerLoad = async () => {
 	return {
 		meta: {
 			title: CONFIG.companyName,

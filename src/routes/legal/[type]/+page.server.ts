@@ -73,7 +73,7 @@ const legal = {
 };
 
 // Types
-import type { PageServerLoad } from "./$types";
+import type { PageServerLoad } from "@sveltejs/kit";
 
 export const load: PageServerLoad = async ({ params }) => {
 	const { type } = params as { type: keyof typeof legal };
