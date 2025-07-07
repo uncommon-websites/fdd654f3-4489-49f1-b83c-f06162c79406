@@ -68,7 +68,10 @@ It should ALWAYS have between 3 and 5 customers!
 	});
 </script>
 
-<div class="bg-background" {...rest}>
+<div
+	class="from-primary-50 to-primary-100 grid h-[calc(100vh-var(--nav-height))] grid-rows-[1fr_auto] bg-gradient-to-b"
+	{...rest}
+>
 	<header
 		class={[
 			"section-px container mx-auto grid items-end gap-16 gap-y-9 text-balance",
