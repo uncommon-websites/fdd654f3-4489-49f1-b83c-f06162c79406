@@ -30,7 +30,7 @@
 			company: "SecureNet Solutions",
 			quote:
 				"Respawn's immutable verification gives our clients confidence that their recovery will work. We've eliminated failed recovery attempts and the reputation damage that comes with them.",
-			image: "/generated/image-an-msp-operations-director-in-a-secure-s.webp"
+			image: "/generated/image-an-msp-operations-director-leading-a-cyb.webp"
 		},
 		{
 			name: "David Kim",
@@ -38,7 +38,7 @@
 			company: "MidMarket Manufacturing",
 			quote:
 				"The blockchain-powered verification means we can prove our data integrity to auditors instantly. Respawn turned our biggest compliance headache into our strongest security asset.",
-			image: "/generated/image-an-it-director-reviewing-systems-in-a-se.webp"
+			image: "/generated/image-an-it-director-reviewing-backup-infrastr.webp"
 		},
 		{
 			name: "Elena Vasquez",
