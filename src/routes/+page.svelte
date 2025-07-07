@@ -13,7 +13,7 @@
 <CenteredTextOnlyHero
 	title="Zero-trust recovery that never fails."
 	subtitle="Blockchain-verified backups that guarantee instant recovery when attacks strike. Our zero-trust network eliminates the 50% failure rate of traditional systems."
-	imageSrc="/generated/image-a-modern-workspace-featuring-a-team-of-d.webp"
+	imageSrc="/generated/image-a-professional-cybersecurity-team-workin.webp"
 />
 <LogoScroller
 	label="Trusted by MSPs and enterprise IT leaders"
@@ -21,13 +21,15 @@
 		'https://logo.clearbit.com/microsoft.com',
 		'https://logo.clearbit.com/cisco.com',
 		'https://logo.clearbit.com/vmware.com',
-		'https://logo.clearbit.com/dell.com'
+		'https://logo.clearbit.com/dell.com',
+		'https://logo.clearbit.com/oracle.com',
+		'https://logo.clearbit.com/ibm.com'
 	]}
 />
 
 <Summary
 	title="Not just storage. A new survival layer for your data."
-	text="Traditional backups fail when you need them most. Most systems boast scheduled backups, but still break during breaches. Why? Because they rely on trust, static mirrors, or cloud infrastructure from providers targeted in the very threats you're trying to recover from. 50% failure rate. Days to restore. In today's attacks, that's too late."
+	text="Traditional backups fail when you need them most. Most systems boast scheduled backups, but still break during breaches. Why? Because they rely on trust, static mirrors, or cloud infrastructure from providers targeted in the very threats you're trying to recover from. 50% failure rate. Days to restore. In today's AI-powered attacks, that's too late."
 />
 
 <Testimonials
@@ -112,7 +114,7 @@
 		{
 			title: "Enterprise ransomware protection",
 			description: "Stops malware from reextracting through backup restores. Shields from insider threats that exploit root privileges. Detects and routes around silent node failures or misconfigurations.",
-			image: "/generated/image-a-security-architect-reviewing-recovery-.webp",
+			image: "/generated/image-a-security-architect-in-a-modern-office-.webp",
 			link: {
 				href: "/use-cases/ransomware-protection",
 				label: "Learn more"
@@ -121,7 +123,7 @@
 		{
 			title: "Full stack recovery in sync",
 			description: "Recovers full, distributed stacks in sync—with a single command. Recovery plans you can read at a glance with a visual dashboard of your environment's integrity, restore ability, audit logs, and sync timelines.",
-			image: "/generated/image-an-it-team-monitoring-a-recovery-network.webp",
+			image: "/generated/image-an-it-team-monitoring-network-infrastruc.webp",
 			link: {
 				href: "/use-cases/compliance",
 				label: "Learn more"
@@ -135,7 +137,7 @@
 	title="Your infrastructure isn't bulletproof. Your recovery should be." 
 	subtitle="This isn't backup. This is uncompromising recovery."
 	description="Talk to our executive team to pinpoint where your current risk lives—and how Respawn guarantees verified, breach-resilient recovery across every stack in your environment."
-	imageSrc="/generated/image-a-cybersecurity-team-celebrating-success.webp"
+	imageSrc="/generated/image-a-cybersecurity-team-celebrating-a-succe.webp"
 	callsToAction={[
 		{
 			href: "mailto:patrick@respawn.com",
