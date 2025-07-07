@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import type { PageServerLoad } from './$types';
+import type { PageServerLoad } from '@sveltejs/kit';
 
 export const load: PageServerLoad = async ({ url }) => {
 	// Only allow access on localhost

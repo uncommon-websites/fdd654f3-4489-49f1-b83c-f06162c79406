@@ -1,6 +1,6 @@
 // Types
 import { CONFIG } from "$lib/content";
-import type { LayoutServerLoad } from "./$types";
+import type { LayoutServerLoad } from "@sveltejs/kit";
 
 export const load: LayoutServerLoad = async () => {
 	return {
