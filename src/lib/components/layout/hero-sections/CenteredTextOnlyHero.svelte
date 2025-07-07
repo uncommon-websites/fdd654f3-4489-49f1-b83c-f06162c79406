@@ -40,6 +40,44 @@ Takes up the full viewport height and centers content vertically.
 
 		<!-- Blockchain-inspired security background -->
 		<div class="from-primary/80 via-primary/60 to-primary/80 absolute inset-0 bg-gradient-to-br">
+			<!-- Network mesh pattern -->
+			<div class="absolute inset-0 opacity-20">
+				<svg class="h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+					<defs>
+						<pattern
+							id="blockchain-grid"
+							x="0"
+							y="0"
+							width="10"
+							height="10"
+							patternUnits="userSpaceOnUse"
+						>
+							<path
+								d="M 10 0 L 0 0 0 10"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="0.5"
+								opacity="0.3"
+							/>
+						</pattern>
+						<pattern
+							id="security-nodes"
+							x="0"
+							y="0"
+							width="20"
+							height="20"
+							patternUnits="userSpaceOnUse"
+						>
+							<circle cx="10" cy="10" r="1" fill="currentColor" opacity="0.4" />
+							<circle cx="5" cy="5" r="0.5" fill="currentColor" opacity="0.2" />
+							<circle cx="15" cy="15" r="0.5" fill="currentColor" opacity="0.2" />
+						</pattern>
+					</defs>
+					<rect width="100" height="100" fill="url(#blockchain-grid)" />
+					<rect width="100" height="100" fill="url(#security-nodes)" />
+				</svg>
+			</div>
+
 			<!-- Distributed network connections -->
 			<div class="absolute inset-0 opacity-15">
 				<svg class="h-full w-full" viewBox="0 0 400 300" preserveAspectRatio="none">
