@@ -105,7 +105,7 @@
 		{
 			title: "MSP service differentiation",
 			description: "Stand out from competitors by offering guaranteed recovery that actually works. Eliminate the reputation damage from failed recovery attempts and provide your clients with cryptographically verified data protection that traditional backup solutions can't match.",
-			image: "/sample.png",
+			image: "/uploaded/1751915901355-g3tiohz.png",
 			link: {
 				href: "/use-cases/msp-services",
 				label: "Learn more"
