@@ -4,8 +4,8 @@
   "description": "Zero-trust cyber recovery network that provides bulletproof data protection through blockchain-verified backups",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#0a0a0a",
+  "theme_color": "#4f46e5",
   "icons": [
     {
       "src": "/favicon-96x96.png",
