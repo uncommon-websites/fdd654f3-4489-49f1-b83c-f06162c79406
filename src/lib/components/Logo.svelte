@@ -25,14 +25,24 @@
   <!-- N -->
   <path d="M96 32V8h4v16l6-16h4v24h-4V16l-6 16h-4z" fill="currentColor"/>
   
-  <!-- Blockchain-inspired geometric accent -->
-  <g transform="translate(115, 8)">
-    <rect x="0" y="0" width="3" height="3" fill="currentColor" opacity="0.8"/>
-    <rect x="0" y="4" width="3" height="3" fill="currentColor" opacity="0.6"/>
-    <rect x="0" y="8" width="3" height="3" fill="currentColor" opacity="0.4"/>
-    <rect x="0" y="12" width="3" height="3" fill="currentColor" opacity="0.6"/>
-    <rect x="0" y="16" width="3" height="3" fill="currentColor" opacity="0.8"/>
-    <rect x="0" y="20" width="3" height="3" fill="currentColor" opacity="1"/>
+  <!-- Enhanced blockchain recovery icon -->
+  <g transform="translate(113, 6)">
+    <!-- Recovery network nodes -->
+    <circle cx="3" cy="3" r="2" fill="currentColor" opacity="0.9"/>
+    <circle cx="3" cy="9" r="1.5" fill="currentColor" opacity="0.7"/>
+    <circle cx="3" cy="15" r="2" fill="currentColor" opacity="1"/>
+    <circle cx="3" cy="21" r="1.5" fill="currentColor" opacity="0.8"/>
+    <circle cx="3" cy="27" r="2.5" fill="currentColor" opacity="1"/>
+    
+    <!-- Connection lines representing network resilience -->
+    <path d="M3 5 L3 7.5" stroke="currentColor" stroke-width="1" opacity="0.6"/>
+    <path d="M3 10.5 L3 13" stroke="currentColor" stroke-width="1" opacity="0.8"/>
+    <path d="M3 17 L3 19.5" stroke="currentColor" stroke-width="1" opacity="0.7"/>
+    <path d="M3 22.5 L3 24.5" stroke="currentColor" stroke-width="1" opacity="0.9"/>
+    
+    <!-- Shield overlay for security -->
+    <path d="M1 15 L3 13 L5 15 L5 19 C5 20.5 4 21.5 3 22 C2 21.5 1 20.5 1 19 Z" 
+          fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.4"/>
   </g>
 </svg>
 
