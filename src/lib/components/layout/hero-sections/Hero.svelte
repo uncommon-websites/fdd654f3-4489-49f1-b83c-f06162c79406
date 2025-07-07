@@ -63,7 +63,7 @@
 	}: Props = $props();
 </script>
 
-<div class="bg-background" {...rest}>
+<div {...rest}>
 	<header
 		class={[
 			"section-px container mx-auto grid items-end gap-16 gap-y-9 py-12 pt-24 text-balance",
