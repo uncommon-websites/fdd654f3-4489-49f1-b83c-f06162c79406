@@ -1,6 +1,6 @@
 @theme inline {
 	/* Theming */
-	--color-background: white;
+	--color-background: var(--color-primary-50);
 	--color-foreground: oklch(0.35 0.01 45);
 
 	--color-card: var(--color-gray-50);
