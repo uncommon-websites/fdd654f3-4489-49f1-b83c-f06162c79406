@@ -1,6 +1,6 @@
-# Task: Update Hero Headline and Image
+# Task: Update Hero Subheadline and Generate Pattern Image
 
-- [x] Shorten hero headline to 10 words max
-- [x] Generate a better hero image for cybersecurity/data recovery theme
-- [x] Update the hero component with new image
-- [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
+- [ ] Shorten hero subheadline to 10 words maximum
+- [ ] Generate a new pattern/abstract image for hero section
+- [ ] Update hero component with new image
+- [ ] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
