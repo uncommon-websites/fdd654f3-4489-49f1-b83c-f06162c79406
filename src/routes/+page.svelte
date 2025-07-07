@@ -13,7 +13,7 @@
 <Hero
 	title="Zero-trust recovery that never fails."
 	subtitle="Blockchain-verified backups that guarantee instant recovery when attacks strike."
-	imageSrc="/generated/image-an-editorial-style-photograph-of-a-profe.webp"
+	imageSrc="/generated/image-a-group-of-diverse-individuals-engaged-i.webp"
 />
 <LogoScroller
 	label="Trusted by MSPs and enterprise IT leaders"
