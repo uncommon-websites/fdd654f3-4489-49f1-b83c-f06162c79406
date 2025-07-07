@@ -126,7 +126,7 @@
 			company: "Growth Team",
 			quote:
 				"Being part of a team that's genuinely committed to guaranteed recovery and data protection is inspiring. The community we're building around immutable verification is passionate and engaged.",
-			image: "/generated/image-a-confident-it-security-leader-standing-.webp"
+			image: "/generated/image-a-confident-it-security-manager-standing.webp"
 		}
 	];
 
