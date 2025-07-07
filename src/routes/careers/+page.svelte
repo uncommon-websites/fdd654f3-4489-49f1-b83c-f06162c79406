@@ -24,18 +24,18 @@
 
 	const benefits = [
 		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
+			title: "Push boundaries with cutting-edge technology",
+			description: "Build with the Cosmos SDK, zero-knowledge proofs, and provable storage systems. Our tech stack supports some of the most advanced use cases in blockchain today.",
 			icon: IconBriefcase
 		},
 		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
+			title: "Join a mission with meaning",
+			description: "We're not here to chase trends—we're here to protect digital rights. At Jackal, your work directly supports user privacy, data ownership, and decentralization.",
 			icon: IconUsers
 		},
 		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
+			title: "Work from anywhere, with trust",
+			description: "We're a remote-first team that values autonomy, clear communication, and asynchronous workflows. Contribute on your schedule—what matters is what you deliver, not where you work.",
 			icon: IconHeart
 		}
 	];
@@ -155,35 +155,40 @@
 			step: 1,
 			title: "Apply",
 			description:
-				"Submit your application through our careers portal with your resume and portfolio."
+				"Send your resume or GitHub link with a short note about which role interests you to patrick@jackallabs.io."
 		},
 		{
 			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
+			title: "Intro call",
+			description: "We'll hop on a quick call to understand what you're looking for and share more about the role and team."
 		},
 		{
 			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
+			title: "Technical assessment",
+			description: "Depending on the role, you may complete a short take-home project or discuss code you've already written with an engineer."
+		},
+		{
+			step: 4,
+			title: "Final conversation",
+			description: "Connect directly with the core team and explore alignment on impact, projects, and ways you can grow with us."
 		}
 	];
 
 	const values = [
 		{
 			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
+			title: "Think long term",
+			description: "We're building infrastructure for decades to come. Decisions are made with staying power in mind—not quick wins."
 		},
 		{
 			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
+			title: "Code with integrity",
+			description: "We care about usefulness, transparency, and building products that solve real problems—not chasing hype."
 		},
 		{
 			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
+			title: "Stay open by default",
+			description: "We believe in transparent decision-making and open collaboration—with each other and with our community."
 		}
 	];
 </script>
@@ -191,15 +196,14 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	generating
 	title="Join our team of innovators"
 	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
 	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
 />
 
 <!-- Why Join Us Section -->
-<section class={SECTION_BASE_CLASSES} generating>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+<section class={SECTION_BASE_CLASSES}>
+	<SectionHeader title="Why join us?" subtitle="Make an impact on the decentralized future. Work on critical Web3 infrastructure that powers censorship-resistant, privacy-first cloud storage." />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -209,16 +213,17 @@
 </section>
 
 <!-- Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<Testimonials testimonials={employeeTestimonials} generating />
+<Testimonials testimonials={employeeTestimonials} />
 
 <!-- Application Process -->
-<section class={SECTION_BASE_CLASSES} generating>
+<section class={SECTION_BASE_CLASSES}>
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
+		<p class="text-body text-emphasis-low mb-16">We move fast—most candidates hear back and complete the process within 2 to 3 weeks.</p>
 
-		<div class="grid gap-12 md:grid-cols-3">
+		<div class="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
 			{#each processSteps as { step, title, description }, i}
 				<div class="flex flex-col">
 					<div class="{ICON_CONTAINER_CLASSES} mb-6 size-11">
@@ -232,7 +237,7 @@
 	</div>
 </section>
 <!-- Current Openings Section -->
-<section class={GRADIENT_BG_CLASSES} generating>
+<section class={GRADIENT_BG_CLASSES}>
 	<div class="section-px section-py container mx-auto grid w-full items-start lg:grid-cols-2">
 		<SectionHeader title="Current openings" subtitle="Find your perfect role" />
 
