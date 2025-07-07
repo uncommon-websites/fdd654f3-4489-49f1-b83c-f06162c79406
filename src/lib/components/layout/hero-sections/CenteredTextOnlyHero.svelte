@@ -42,7 +42,7 @@ Takes up the full viewport height and centers content vertically.
 		></div>
 
 		<!-- Blockchain-inspired security background -->
-		<div class="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-background/80">
+		<div class="absolute inset-0 bg-gradient-to-br from-primary/80 via-primary/60 to-primary/80">
 			<!-- Network mesh pattern -->
 			<div class="absolute inset-0 opacity-20">
 				<svg class="h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
