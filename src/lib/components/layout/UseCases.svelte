@@ -86,7 +86,7 @@
 						src={useCases[current].image}
 						alt="Featured use case"
 						loading="lazy"
-						class="grid-center aspect-[3/2] size-full max-h-full object-cover"
+						class="grid-center size-full object-contain"
 					/>
 				{/key}
 			</div>
