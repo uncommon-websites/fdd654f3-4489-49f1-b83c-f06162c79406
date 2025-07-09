@@ -5,7 +5,6 @@
 	import Testimonials from "$lib/components/layout/Testimonials.svelte";
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
-	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 	import UseCases from "$lib/components/layout/UseCases.svelte";
 </script>
@@ -14,17 +13,6 @@
 	title="Zero-trust recovery that never fails."
 	subtitle="Blockchain-verified backups that guarantee instant recovery when attacks strike. Our zero-trust network eliminates the 50% failure rate of traditional systems."
 	imageSrc="/generated/image-a-professional-cybersecurity-team-workin.webp"
-/>
-<LogoScroller
-	label="Trusted by MSPs and enterprise IT leaders"
-	logoUrls={[
-		'https://logo.clearbit.com/microsoft.com',
-		'https://logo.clearbit.com/cisco.com',
-		'https://logo.clearbit.com/vmware.com',
-		'https://logo.clearbit.com/dell.com',
-		'https://logo.clearbit.com/oracle.com',
-		'https://logo.clearbit.com/ibm.com'
-	]}
 />
 
 <Summary
