@@ -49,7 +49,7 @@ export type NavItem = {
 };
 
 export const cta = {
-	label: "Get started",
+	label: "Join waitlist",
 	href: "mailto:patrick@respawn.com"
 };
 
