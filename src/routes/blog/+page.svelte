@@ -14,57 +14,57 @@
 	// Blog posts data
 	const blogPosts: BlogPost[] = [
 		{
-			title: "Why traditional backups fail—and what to do about it",
-			description: "Explore the root cause behind backup failures during ransomware attacks and how blockchain-verified recovery networks change the equation. Learn why 50% of traditional systems fail when businesses need them most.",
+			title: "Why manual valuation processes fail—and what to do about it",
+			description: "Explore the root cause behind valuation bottlenecks and how AI-powered automation changes the equation. Learn why traditional Excel-based workflows limit practice growth.",
 			date: "2024-01-15",
 			readTime: "8 min read",
-			category: "Recovery",
-			image: "/generated/image-a-cybersecurity-professional-in-a-modern.webp",
+			category: "Efficiency",
+			image: "/generated/image-a-professional-accountant-working-at-a-m.webp",
 			url: "#"
 		},
 		{
-			title: "AI is rewriting the rules of cybersecurity",
-			description: "Cybercriminals are using AI to attack faster and smarter. Learn how organizations can respond with zero-trust recovery strategies and prepare for the next generation of threats.",
+			title: "AI is rewriting the rules of professional services",
+			description: "Accounting professionals are using AI to work faster and smarter. Learn how to leverage automation while maintaining the accuracy your reputation depends on.",
 			date: "2024-01-10",
 			readTime: "6 min read",
-			category: "AI Threats",
-			image: "/generated/image-a-group-of-professionals-in-a-meeting-ro.webp",
+			category: "AI Tools",
+			image: "/generated/image-a-cpa-reviewing-business-valuation-repor.webp",
 			url: "#"
 		},
 		{
-			title: "The 4-minute recovery: inside Respawn's parallel rehydration engine",
-			description: "How concurrent data streaming from geo-distributed nodes lets businesses recover in minutes—not days—after an attack. A technical deep dive into our architecture.",
+			title: "The 4-minute valuation: inside FlashValue's AI engine",
+			description: "How automated financial normalization and comps-based analysis lets professionals generate reports in minutes—not days. A technical deep dive into our methodology.",
 			date: "2024-01-05",
 			readTime: "12 min read",
 			category: "Technical",
-			image: "/generated/image-a-secure-data-center-environment-featuri.webp",
+			image: "/generated/image-a-business-valuation-professional-presen.webp",
 			url: "#"
 		},
 		{
-			title: "Building business continuity that actually works",
-			description: "Most disaster recovery plans fail under pressure. Discover how to build resilient systems that guarantee business continuity when cyberattacks strike your organization.",
+			title: "Building a scalable valuation practice",
+			description: "Most solo practitioners hit growth walls due to manual processes. Discover how to build systems that let you handle 10x more work without sacrificing quality.",
 			date: "2023-12-28",
 			readTime: "10 min read",
 			category: "Strategy",
-			image: "/generated/image-a-group-of-executives-in-a-business-cont.webp",
+			image: "/generated/image-boutique-accounting-firm-partners-discus.webp",
 			url: "#"
 		},
 		{
-			title: "Zero-trust recovery: the future of data protection",
-			description: "Traditional backup systems assume your infrastructure is secure. Zero-trust recovery assumes it's already compromised. Learn how this mindset shift changes everything.",
+			title: "Forensic accounting in the AI age",
+			description: "Traditional forensic methods are evolving. Learn how AI-powered tools help forensic accountants work faster while maintaining the rigor courts expect.",
 			date: "2023-12-20",
 			readTime: "7 min read",
-			category: "Security",
-			image: "/generated/image-a-cybersecurity-expert-presenting-in-a-c.webp",
+			category: "Forensic",
+			image: "/generated/image-a-forensic-accountant-analyzing-financia.webp",
 			url: "#"
 		},
 		{
-			title: "MSPs and the cyber recovery revolution",
-			description: "How managed service providers are transforming client protection with blockchain-verified backups and guaranteed recovery systems. Real case studies and lessons learned.",
+			title: "CPAs and the valuation automation revolution",
+			description: "How certified public accountants are transforming their practices with AI-powered valuation tools. Real case studies and lessons learned from early adopters.",
 			date: "2023-12-15",
 			readTime: "9 min read",
-			category: "MSP",
-			image: "/generated/image-cybersecurity-expert-presenting-to-corpo.webp",
+			category: "CPA",
+			image: "/generated/image-a-solo-cpa-working-efficiently-in-a-mode.webp",
 			url: "#"
 		}
 	];
@@ -109,16 +109,16 @@
 
 <!-- Hero Section -->
 <SecondaryHero
-	title="Cyber recovery that doesn't fail when the stakes are highest"
-	subtitle="Traditional backup systems fail 50% of the time during real cyberattacks—costing businesses time, money, and trust. Respawn was built to make sure that never happens again."
-	imageSrc="/generated/image-a-cybersecurity-professional-in-a-modern.webp"
+	title="Valuation insights that help you scale without sacrificing accuracy"
+	subtitle="Manual valuation processes waste hours on formatting and templates—costing professionals time, money, and growth opportunities. FlashValue was built to change that."
+	imageSrc="/generated/image-a-professional-accountant-working-at-a-m.webp"
 />
 
 <!-- Featured Post Section -->
 <section class={SECTION_BASE_CLASSES}>
 	<SectionHeader
-		title="Latest insights on cyber resilience"
-		subtitle="Stay ahead of evolving threats with expert analysis and practical guidance"
+		title="Latest insights on valuation efficiency"
+		subtitle="Stay ahead of industry changes with expert analysis and practical guidance"
 	/>
 
 	{#if featuredPost}

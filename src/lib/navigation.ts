@@ -49,8 +49,8 @@ export type NavItem = {
 };
 
 export const cta = {
-	label: "Join waitlist",
-	href: "mailto:patrick@respawn.com"
+	label: "Get early access",
+	href: "mailto:patrick@flashvalue.com"
 };
 
 export const navigation: NavItem[] = [

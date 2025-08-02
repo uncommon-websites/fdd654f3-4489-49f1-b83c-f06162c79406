@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Respawn",
-	description: "Zero-trust cyber recovery network that provides bulletproof data protection through blockchain-verified backups stored across a geo-distributed mesh of resilient nodes, designed to protect businesses' most valuable data against AI-powered cyberattacks.",
+	companyName: "FlashValue",
+	description: "AI-powered valuation engine that turns raw financials into fully formatted, audit-ready business valuation reports in minutes. Built for accountants who want to eliminate bottlenecks without sacrificing accuracy.",
 	image: "/og.png",
-	url: "https://respawn.com",
+	url: "https://flashvalue.com",
 	fontFamily: "Inter"
 };

@@ -23,33 +23,33 @@
 
 	const benefits = [
 		{
-			title: "Make 'recover in minutes' the new normal",
+			title: "Make 'reports in minutes' the new normal",
 			description:
-				"Design, build, and scale the backbone that cuts ransomware downtime from weeks to minutes. Work on blockchain-verified backup primitives and high-availability node networks with real-time healing."
+				"Design, build, and scale the AI engine that cuts valuation turnaround from weeks to minutes. Work on financial data normalization, comps-based analysis, and natural language generation that meets audit standards."
 		},
 		{
 			title: "Work on what actually matters",
 			description:
-				"Level the playing field with AI-powered attackers as an engineer, not just a bystander. Build data protection architectures for unplanned chaos, not calm sunny days."
+				"Build tools that amplify human expertise instead of replacing it. Create AI systems that help professionals scale their practice while maintaining the accuracy their reputation depends on."
 		},
 		{
-			title: "Everything we build is tested by failure",
+			title: "Everything we build is tested by professionals",
 			description:
-				"We prototype in real-world failover scenarios. Our baseline question isn't 'have we shipped it,' but 'did it hold under actual compromise?' If you find that both daunting and exhilarating, join us."
+				"We prototype with real CPAs and forensic accountants. Our baseline question isn't 'does it work,' but 'would you stake your professional reputation on it?' If you find that both challenging and rewarding, join us."
 		}
 	];
 
 	const openings: JobOpening[] = [
 		// Engineering
 		{
-			title: "Blockchain Recovery Engineer",
+			title: "AI/ML Engineer",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Cryptographic Systems Developer",
+			title: "Financial Data Engineer",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
@@ -63,7 +63,7 @@
 			url: "#"
 		},
 		{
-			title: "Infrastructure Engineer",
+			title: "Backend Engineer",
 			department: "Engineering",
 			location: "Remote",
 			type: "Full-time",
@@ -72,7 +72,7 @@
 
 		// Product
 		{
-			title: "MSP Relations Manager",
+			title: "Accounting Relations Manager",
 			department: "Product",
 			location: "Remote",
 			type: "Full-time",
@@ -88,14 +88,14 @@
 
 		// Growth
 		{
-			title: "Cybersecurity Community Manager",
+			title: "Accounting Community Manager",
 			department: "Growth",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Enterprise Marketing Lead",
+			title: "Professional Services Marketing Lead",
 			department: "Growth",
 			location: "Remote",
 			type: "Full-time",
@@ -106,27 +106,27 @@
 	const employeeTestimonials = [
 		{
 			name: "Alex Rivera",
-			position: "Blockchain Recovery Engineer",
+			position: "AI/ML Engineer",
 			company: "Engineering Team",
 			quote:
-				"Building infrastructure that guarantees recovery when traditional systems fail is incredibly rewarding. The technical challenges are complex and the mission is critical for business continuity.",
-			image: "/generated/image-an-enterprise-security-professional-anal.webp"
+				"Building AI that amplifies professional expertise instead of replacing it is incredibly rewarding. The technical challenges are complex and the mission is critical for helping accountants scale their practice.",
+			image: "/generated/image-a-confident-female-accountant-in-a-profe.webp"
 		},
 		{
 			name: "Jordan Kim",
-			position: "MSP Relations Manager",
+			position: "Accounting Relations Manager",
 			company: "Product Team",
 			quote:
-				"Working at the intersection of blockchain and enterprise recovery means I'm constantly learning. The impact of helping MSPs eliminate failed recovery attempts is transformative.",
-			image: "/generated/image-an-msp-operations-director-leading-a-cyb.webp"
+				"Working at the intersection of AI and professional services means I'm constantly learning. The impact of helping CPAs eliminate manual bottlenecks while maintaining accuracy is transformative.",
+			image: "/generated/image-a-male-cpa-working-with-financial-spread.webp"
 		},
 		{
 			name: "Maya Patel",
-			position: "Cybersecurity Community Manager",
+			position: "Accounting Community Manager",
 			company: "Growth Team",
 			quote:
-				"Being part of a team that's genuinely committed to guaranteed recovery and data protection is inspiring. The community we're building around immutable verification is passionate and engaged.",
-			image: "/generated/image-a-confident-it-security-manager-standing.webp"
+				"Being part of a team that's genuinely committed to professional amplification is inspiring. The community we're building around AI-powered valuation is passionate and engaged.",
+			image: "/generated/image-a-cpa-reviewing-business-valuation-repor.webp"
 		}
 	];
 
@@ -135,7 +135,7 @@
 			step: 1,
 			title: "Apply",
 			description:
-				"Send your resume or GitHub link with a short note about which role interests you to careers@respawn.network."
+				"Send your resume or GitHub link with a short note about which role interests you to careers@flashvalue.com."
 		},
 		{
 			step: 2,
@@ -159,9 +159,9 @@
 
 	const values = [
 		{
-			title: "Zero tolerance for failure",
+			title: "Zero tolerance for inaccuracy",
 			description:
-				"We're building infrastructure that businesses depend on when everything else breaks. Every decision is made with the understanding that failure isn't an option."
+				"We're building tools that professionals stake their reputation on. Every decision is made with the understanding that accuracy isn't negotiable."
 		},
 		{
 			title: "Bias for deep thinking",
@@ -169,9 +169,9 @@
 				"We speak clearly, especially when things are complicated. Documentation-first, egoless iteration, quality over clever tricks."
 		},
 		{
-			title: "Tested by reality",
+			title: "Tested by professionals",
 			description:
-				"We prototype in real-world failover scenarios. Our baseline question isn't 'have we shipped it,' but 'did it hold under actual compromise?'"
+				"We prototype with real CPAs and forensic accountants. Our baseline question isn't 'have we shipped it,' but 'would you stake your professional reputation on it?'"
 		}
 	];
 </script>
@@ -179,9 +179,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Build the system the internet leans on"
-	subtitle="Building blockchain-verified recovery infrastructure that never fails."
-	imageSrc="/generated/image-diverse-cybersecurity-professionals-coll.webp"
+	title="Build the system accountants depend on"
+	subtitle="Building AI-powered valuation infrastructure that never compromises on accuracy."
+	imageSrc="/generated/image-a-professional-accounting-team-collabora.webp"
 />
 
 <!-- Why Join Us Section -->

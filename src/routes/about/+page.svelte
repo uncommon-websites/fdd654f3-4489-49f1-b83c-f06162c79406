@@ -11,36 +11,36 @@
 	// Constants
 	const values = [
 		{
-			title: "Recovery first",
-			description: "Every architectural decision prioritizes guaranteed recovery over convenience. When business continuity is non-negotiable, Respawn's your safety net."
+			title: "Accuracy first",
+			description: "Every calculation is transparent and defensible. When your reputation depends on precision, FlashValue delivers bulletproof methodologies and audit-ready documentation."
 		},
 		{
-			title: "Provably secure",
-			description: "Built on a forensic-proof audit log where every action is verified and tamper-resistant. Mathematical proof of data integrity that can't be compromised."
+			title: "Built for speed",
+			description: "Eliminate the bottlenecks that keep you from scaling. AI-powered automation handles the grunt work so you can focus on analysis and client relationships."
 		},
 		{
-			title: "Zero trust architecture",
-			description: "No single point of failure, no blind trust in vendors. Self-healing architecture that replicates across a geo-distributed node mesh and repairs faults automatically."
+			title: "Professional grade",
+			description: "No shortcuts, no compromises. Built to meet the standards that forensic accountants, CPAs, and valuation professionals demand in high-stakes situations."
 		},
 		{
-			title: "Built for professionals",
-			description: "Trusted by the teams who know they won't get a second chance after an attack. Purpose-built for MSPs, IT teams, and security professionals."
+			title: "Trusted by experts",
+			description: "Purpose-built for the professionals who know they won't get a second chance. Solo CPAs, boutique firms, and forensic accountants who bill by the hour but want to earn by the outcome."
 		}
 	];
 </script>
 
 <SecondaryHero
-	title="Recovery you can trust"
-	subtitle="Built by founders who witnessed backup failures"
-	imageSrc="/generated/image-a-professional-cybersecurity-team-engage.webp"
+	title="Valuation work you can trust"
+	subtitle="Built by a founder who witnessed manual process failures"
+	imageSrc="/generated/image-a-business-valuation-professional-presen.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"Respawn exists because our founders saw what happens when traditional recovery fails. Patrick spent years in digital forensics, investigating catastrophic cyberattacks and failed recovery efforts. He led engagements where businesses collapsed—not because they didn't have backups, but because those backups didn't work.",
-		"Marston had spent most of his career architecting high-resilience infrastructure in security-sensitive environments. Together, they recognized the foundational flaw in the systems we're all still using—50% of traditional backup restores fail under real pressure.",
-		"They built Respawn to fix that. From the ground up. Today, Respawn is the only backup and recovery network built on blockchain-verified backups, distributed storage, and parallel rehydration. It's cyber recovery designed not just to feel safe, but to provably be safe. Because what's the point of a backup that might not come through?"
+		"FlashValue exists because Patrick saw what happens when manual processes fail. After years in digital forensics, investigating financial fraud and crypto crime, he started working with forensic accountants and valuation professionals. The same pattern emerged everywhere: brilliant professionals wasting hours on Excel gymnastics and Word document formatting.",
+		"He watched CPAs billing $10,000 for reports that took weeks to complete—not because the analysis was complex, but because the manual processes were broken. Outdated tools. Copy-paste workflows. Excel hell. People doing high-stakes work with systems that couldn't scale.",
+		"So he built FlashValue. An AI-powered valuation engine that handles the grunt work—normalizing financials, applying comps-based methods, generating clean narratives—so accountants can do 10x the work, charge the same, and never miss a beat. Because what's the point of expertise that can't scale?"
 	]}
 />
 
@@ -53,5 +53,5 @@
 <CallToAction
 	title="Talk with the founding team"
 	subtitle="Questions? Custom needs? Want to hear why we built it this way?"
-	description="Book time directly with Patrick or Marston to discuss how Respawn can guarantee verified, breach-resilient recovery across your entire environment."
+	description="Book time directly with Patrick to discuss how FlashValue can eliminate your valuation bottlenecks and help you scale your practice without sacrificing quality."
 />

@@ -10,110 +10,110 @@
 </script>
 
 <CenteredTextOnlyHero
-	title="Zero-trust recovery that never fails."
-	subtitle="Blockchain-verified backups that guarantee instant recovery when attacks strike. Our zero-trust network eliminates the 50% failure rate of traditional systems."
-	imageSrc="/generated/image-a-professional-cybersecurity-team-workin.webp"
+	title="From raw financials to audit-ready reports in minutes."
+	subtitle="AI-powered valuation engine that eliminates Excel gymnastics and Word document guesswork. Built for accountants who want to deliver faster without sacrificing accuracy."
+	imageSrc="/generated/image-a-professional-accountant-working-at-a-m.webp"
 />
 
 <Summary
-	title="Not just storage. A new survival layer for your data."
-	text="Traditional backups fail when you need them most. Most systems boast scheduled backups, but still break during breaches. Why? Because they rely on trust, static mirrors, or cloud infrastructure from providers targeted in the very threats you're trying to recover from. 50% failure rate. Days to restore. In today's AI-powered attacks, that's too late."
+	title="Not just automation. A new standard for valuation work."
+	text="Manual valuation processes waste hours on spreadsheets and templates. Most professionals spend more time formatting than analyzing. FlashValue changes that—upload financials, answer context questions, and get clean, defensible reports with AI-powered narratives. No more Excel gymnastics. No more Word document guesswork. Just precise, audit-ready valuations on demand."
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Marcus Chen",
-			position: "CISO",
-			company: "TechFlow Industries",
+			name: "Jennifer Walsh",
+			position: "CPA",
+			company: "Walsh & Associates",
 			quote:
-				"After our traditional backup failed during a ransomware attack, Respawn's guaranteed recovery saved us from a $2M loss. The parallel rehydration got us back online in minutes, not days.",
-			image: "/generated/image-a-confident-it-security-manager-standing.webp"
+				"FlashValue cut my valuation turnaround from two weeks to two days. The AI-generated narratives are professional and the calculations are bulletproof. My clients are impressed with the speed and quality.",
+			image: "/generated/image-a-confident-female-accountant-in-a-profe.webp"
 		},
 		{
-			name: "Sarah Rodriguez",
-			position: "MSP Operations Director",
-			company: "SecureNet Solutions",
+			name: "Michael Torres",
+			position: "Forensic Accountant",
+			company: "Torres Valuation Services",
 			quote:
-				"Respawn's immutable verification gives our clients confidence that their recovery will work. We've eliminated failed recovery attempts and the reputation damage that comes with them.",
-			image: "/generated/image-an-msp-operations-director-leading-a-cyb.webp"
+				"In divorce cases, speed matters. FlashValue lets me deliver defensible valuations quickly while maintaining the rigor courts expect. The transparent methodology documentation is invaluable.",
+			image: "/generated/image-a-male-cpa-working-with-financial-spread.webp"
 		},
 		{
-			name: "David Kim",
-			position: "IT Director",
-			company: "MidMarket Manufacturing",
+			name: "Lisa Chen",
+			position: "Managing Partner",
+			company: "Precision Valuation Group",
 			quote:
-				"The blockchain-powered verification means we can prove our data integrity to auditors instantly. Respawn turned our biggest compliance headache into our strongest security asset.",
-			image: "/generated/image-an-it-director-reviewing-backup-infrastr.webp"
+				"We've scaled our practice 3x without adding staff. FlashValue handles the grunt work so our team can focus on complex analysis and client relationships. It's transformed our business model.",
+			image: "/generated/image-a-cpa-reviewing-business-valuation-repor.webp"
 		}
 	]}
 />
 
 <Features
-	title="Business continuity that won't break"
-	subtitle="No passwords to trust. No single vendor to fail. No risky restores from assumed-clean systems."
+	title="Valuation work that actually scales"
+	subtitle="No Excel gymnastics. No template guesswork. No manual formatting that eats billable hours."
 	features={[
 		{
-			title: "Guaranteed restore success",
+			title: "AI-powered narrative generation",
 			description:
-				"Streams clean, verified data from multiple geo-distributed nodes in parallel for real, immediate recovery."
+				"Clean, editable reports with professional narratives written by AI trained on thousands of valuation reports."
 		},
 		{
-			title: "Zero-trust, by design",
+			title: "Automated financial normalization",
 			description:
-				"Every upload, download, and config change is written to an immutable on-chain audit log. Visibility and provenance from byte one."
+				"Upload raw financials and FlashValue automatically normalizes data, identifies adjustments, and applies industry standards."
 		},
 		{
-			title: "Resilient means recoverable",
+			title: "Comps-based valuation methods",
 			description:
-				"Even if one zone or region goes dark, others activate instantly. Respawn is always live and rebuilds redundancy every 24 hours—without human help."
+				"Built-in comparable company analysis with real-time market data and industry-specific multiples."
 		},
 		{
-			title: "No more single point of failure",
+			title: "Audit-ready formatting",
 			description:
-				"Backups split and streamed across resilient mesh nodes on different infrastructure, in separate locations."
+				"Professional reports that meet audit standards with proper documentation, assumptions, and methodology disclosure."
 		},
 		{
-			title: "Every action, recorded",
+			title: "Defensible methodologies",
 			description:
-				"Edits, restores, admin commands—even access attempts—are written on-chain and preserved forever."
+				"Every calculation is transparent and traceable, with clear documentation of assumptions and data sources."
 		},
 		{
-			title: "No human intervention required",
+			title: "Minutes, not days",
 			description:
-				"The network continually checks and restores 3x redundancy with automated data self-healing."
+				"Complete valuation reports generated in minutes, not the days or weeks traditional methods require."
 		}
 	]}
 />
 
 <UseCases
-	title="Be ready for the day your backups fail"
-	subtitle="Inside hospitals, air-gapped finance teams, and manufacturing plants that can't afford downtime, Respawn picks up where your disaster plan ends."
+	title="Built for professionals who bill by the hour but want to earn by the outcome"
+	subtitle="From solo CPAs to boutique valuation firms, FlashValue eliminates the bottlenecks that keep you from scaling your practice."
 	useCases={[
 		{
-			title: "MSP service differentiation",
-			description: "Stand out from competitors by offering guaranteed recovery that actually works. Eliminate the reputation damage from failed recovery attempts and provide your clients with cryptographically verified data protection that traditional backup solutions can't match.",
-			image: "/uploaded/1751915901355-g3tiohz.png",
+			title: "Solo CPA practice scaling",
+			description: "Handle 10x more valuation work without hiring additional staff. FlashValue automates the grunt work so you can focus on client relationships and business development while maintaining the same quality standards.",
+			image: "/generated/image-a-solo-cpa-working-efficiently-in-a-mode.webp",
 			link: {
-				href: "/use-cases/msp-services",
+				href: "/use-cases/solo-practice",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Enterprise ransomware protection",
-			description: "Stops malware from reextracting through backup restores. Shields from insider threats that exploit root privileges. Detects and routes around silent node failures or misconfigurations.",
-			image: "/generated/image-a-security-architect-in-a-modern-office-.webp",
+			title: "Forensic accounting efficiency",
+			description: "Generate defensible valuations for divorce proceedings, shareholder disputes, and litigation support. AI-powered narratives and transparent methodologies that stand up to scrutiny in court.",
+			image: "/generated/image-a-forensic-accountant-analyzing-financia.webp",
 			link: {
-				href: "/use-cases/ransomware-protection",
+				href: "/use-cases/forensic-accounting",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Full stack recovery in sync",
-			description: "Recovers full, distributed stacks in sync—with a single command. Recovery plans you can read at a glance with a visual dashboard of your environment's integrity, restore ability, audit logs, and sync timelines.",
-			image: "/generated/image-an-it-team-monitoring-network-infrastruc.webp",
+			title: "Boutique firm differentiation",
+			description: "Compete with larger firms by delivering faster turnaround times without compromising quality. Offer clients same-day preliminary valuations and comprehensive reports in days, not weeks.",
+			image: "/generated/image-boutique-accounting-firm-partners-discus.webp",
 			link: {
-				href: "/use-cases/compliance",
+				href: "/use-cases/boutique-firms",
 				label: "Learn more"
 			}
 		}
@@ -122,13 +122,13 @@
 
 <AboutTeaser />
 <CallToAction 
-	title="Your infrastructure isn't bulletproof. Your recovery should be." 
-	subtitle="This isn't backup. This is uncompromising recovery."
-	description="Talk to our executive team to pinpoint where your current risk lives—and how Respawn guarantees verified, breach-resilient recovery across every stack in your environment."
-	imageSrc="/generated/image-a-cybersecurity-team-celebrating-a-succe.webp"
+	title="Your time isn't infinite. Your expertise should scale." 
+	subtitle="This isn't just automation. This is professional amplification."
+	description="Talk to our founding team to see how FlashValue can eliminate your valuation bottlenecks and help you deliver faster without sacrificing the accuracy your reputation depends on."
+	imageSrc="/generated/image-a-professional-accountant-celebrating-su.webp"
 	callsToAction={[
 		{
-			href: "mailto:patrick@respawn.com",
+			href: "mailto:patrick@flashvalue.com",
 			label: "Book time with our founders",
 			variant: "primary"
 		},
