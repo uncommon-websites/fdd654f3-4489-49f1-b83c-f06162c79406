@@ -36,150 +36,63 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Start generating valuation reports in minutes",
-		subtitle = "No sales calls. No contracts. Just results.",
-		tierNames = ["Developer", "Pro", "Enterprise"],
-		features = [
-			{
-				name: "Storage capacity",
-				tiers: {
-					Developer: "100GB",
-					Pro: "1TB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Data redundancy",
-				tiers: {
-					Developer: "3x replication",
-					Pro: "5x replication",
-					Enterprise: "Custom replication"
-				}
-			},
-			{
-				name: "API requests/month",
-				tiers: {
-					Developer: "100K",
-					Pro: "1M",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Censorship resistance",
-				tiers: {
-					Developer: true,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "End-to-end encryption",
-				tiers: {
-					Developer: true,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Provable storage",
-				tiers: {
-					Developer: "Basic proofs",
-					Pro: "Advanced proofs",
-					Enterprise: "Custom proofs"
-				}
-			},
-			{
-				name: "Network bandwidth",
-				tiers: {
-					Developer: "10 Mbps",
-					Pro: "100 Mbps",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Cosmos SDK integration",
-				tiers: {
-					Developer: true,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Developer: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Custom node deployment",
-				tiers: {
-					Developer: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA guarantee",
-				tiers: {
-					Developer: false,
-					Pro: "99.5%",
-					Enterprise: "99.9%"
-				}
-			}
-		],
+		title = "Professional valuation reports in minutes, not weeks",
+		subtitle = "Built for CPAs and valuation experts who bill by the hour but don't want to waste their time.",
+		tierNames = ["Starter", "Professional", "Pay-per-report"],
+		features = [],
 		tiers = [
 			{
 				name: "Starter",
-				monthlyPrice: 99,
+				monthlyPrice: 149,
 				yearlyPrice: null,
-				description: "For solo CPAs and small firms",
+				description: "For solo practitioners and small firms",
 				features: [
-					"5 valuation reports per month",
-					"Upload Excel, CSV, or PDF",
-					"AI-generated report narratives",
+					"10 valuation reports per month",
+					"Upload Excel, CSV, or PDF financials",
+					"AI-powered report narratives",
 					"Editable PDF and Word exports",
-					"Access to EV/EBITDA valuation model",
-					"Email support"
+					"Market multiples database access",
+					"Standard email support"
 				],
 				cta: {
-					label: "Start Free 7-Day Trial",
+					label: "Start Free 14-Day Trial",
 					href: "/signup?plan=starter"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 299,
+				name: "Professional",
+				monthlyPrice: 399,
 				yearlyPrice: null,
-				description: "For high-volume users and power firms",
+				description: "For established firms and high-volume users",
 				features: [
-					"Unlimited reports",
-					"All Starter features",
-					"White-label report exports",
-					"Editable assumption dashboard",
-					"Early access to additional valuation methods (DCF, asset-based)",
-					"Priority support"
+					"Unlimited valuation reports",
+					"All Starter features included",
+					"White-label report customization",
+					"Advanced assumption controls",
+					"Priority support (4-hour response)",
+					"Custom report templates",
+					"Team collaboration tools"
 				],
 				cta: {
-					label: "Start Free 7-Day Trial",
-					href: "/signup?plan=pro"
+					label: "Start Free 14-Day Trial",
+					href: "/signup?plan=professional"
 				},
 				highlight: true
 			},
 			{
-				name: "Pay-as-you-go",
-				monthlyPrice: 49,
+				name: "Pay-per-report",
+				monthlyPrice: 79,
 				yearlyPrice: null,
-				description: "Use FlashValue without a subscription",
+				description: "No subscription required",
 				features: [
-					"All core features",
-					"One-off valuation report",
+					"Single valuation report",
+					"All core AI features",
+					"Professional PDF export",
 					"No monthly commitment",
 					"Perfect for occasional use"
 				],
 				cta: {
-					label: "Try One Now",
+					label: "Generate One Report",
 					href: "/signup?plan=payg"
 				}
 			}
@@ -272,7 +185,7 @@ Please update features according to the company's product offering. Do not remov
 	<!-- Trust Statement -->
 	<div class="mt-16 text-center">
 		<p class="text-body text-emphasis-medium max-w-2xl mx-auto">
-			Trusted by professional accountants and valuation experts who bill by the hour but don't want to waste their time.
+			Trusted by CPAs, forensic accountants, and boutique valuation firms who generate $5,000-$20,000 reports but refuse to waste time on Excel gymnastics.
 		</p>
 	</div>
 
@@ -282,16 +195,24 @@ Please update features according to the company's product offering. Do not remov
 			<h3 class="text-title2 text-foreground mb-12 text-center">Frequently asked questions</h3>
 			<div class="space-y-8">
 				<div>
-					<h4 class="text-headline text-foreground mb-3">What happens after the trial?</h4>
-					<p class="text-body text-emphasis-medium">You'll be charged automatically unless you cancel.</p>
+					<h4 class="text-headline text-foreground mb-3">What valuation methods does FlashValue support?</h4>
+					<p class="text-body text-emphasis-medium">Currently, FlashValue focuses on market-based approaches using EV/EBITDA and revenue multiples. We're adding DCF and asset-based methods soon.</p>
 				</div>
 				<div>
-					<h4 class="text-headline text-foreground mb-3">Can I edit the valuation reports?</h4>
-					<p class="text-body text-emphasis-medium">Yes. Reports are fully customizable and exportable in PDF or Word format.</p>
+					<h4 class="text-headline text-foreground mb-3">Can I customize the reports for my firm?</h4>
+					<p class="text-body text-emphasis-medium">Yes. Professional plan includes white-label customization, custom templates, and full editorial control over all assumptions and narratives.</p>
 				</div>
 				<div>
-					<h4 class="text-headline text-foreground mb-3">What if I cancel my subscription?</h4>
-					<p class="text-body text-emphasis-medium">You keep access to all previously generated reports.</p>
+					<h4 class="text-headline text-foreground mb-3">How does FlashValue handle data security?</h4>
+					<p class="text-body text-emphasis-medium">All client data is encrypted in transit and at rest. We're SOC 2 compliant and never store financial data longer than necessary to generate your report.</p>
+				</div>
+				<div>
+					<h4 class="text-headline text-foreground mb-3">What happens after my trial ends?</h4>
+					<p class="text-body text-emphasis-medium">You'll be automatically charged for your selected plan unless you cancel. You keep access to all previously generated reports even if you cancel.</p>
+				</div>
+				<div>
+					<h4 class="text-headline text-foreground mb-3">Do the reports meet professional standards?</h4>
+					<p class="text-body text-emphasis-medium">Yes. FlashValue follows AICPA and NACVA guidelines. All reports include proper disclosures, methodology explanations, and are fully editable to meet your specific compliance requirements.</p>
 				</div>
 			</div>
 		</div>
@@ -300,7 +221,7 @@ Please update features according to the company's product offering. Do not remov
 	<!-- Compliance Note -->
 	<div class="mt-16 text-center">
 		<p class="text-caption text-emphasis-low max-w-3xl mx-auto">
-			FlashValue follows AICPA and NACVA-aligned valuation methodologies. Reports are editable to meet your firm's compliance standards.
+			FlashValue follows AICPA and NACVA professional standards. All reports include proper disclosures, methodology explanations, and are fully customizable to meet your firm's specific compliance requirements. SOC 2 compliant with enterprise-grade security.
 		</p>
 	</div>
 	<!-- LogoScroller removed for FlashValue pricing page -->

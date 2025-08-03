@@ -46,7 +46,10 @@
 <!-- Sticky CTA Section -->
 <section class="section-py section-px bg-muted">
 	<div class="container mx-auto text-center">
-		<h2 class="text-title2 text-foreground mb-4">Your next valuation report could be done in 10 minutes</h2>
-		<Button href="/signup" variant="primary" size="lg">Start Free Trial</Button>
+		<h2 class="text-title2 text-foreground mb-4">Stop wasting time on Excel. Start generating professional reports.</h2>
+		<p class="text-body text-emphasis-medium mb-6 max-w-2xl mx-auto">
+			Join the CPAs and valuation experts who've already eliminated the grunt work from their practice.
+		</p>
+		<Button href="/signup" variant="primary" size="lg">Start Free 14-Day Trial</Button>
 	</div>
 </section>
