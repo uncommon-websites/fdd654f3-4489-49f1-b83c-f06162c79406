@@ -234,5 +234,25 @@
   {
     "prompt": "A business professional celebrating success in a minimalist office, captured in a documentary-style photograph. The color palette includes cool grays and accents of crimson, with natural lighting conditions creating deep shadows and ambient highlights. The office features textured metal elements in the background, contributing to a physical and grounded mood. The professional is caught mid-action, expressing quiet intensity and a sense of ethical defiance. The environment is real and gritty, with a slightly grainy texture to convey a mood of resolute self-reliance.",
     "filename": "/generated/image-a-business-professional-celebrating-succ.webp"
+  },
+  {
+    "prompt": "A professional accountant working confidently at a modern desk. The environment is set in an open office with large windows letting in natural light. The accountant is focused, surrounded by neat stacks of papers and a classic wooden desk. The color tones are desaturated with deep contrast, featuring cool grays and soft ambient highlights. The background has textured stone walls to create a grounded and serious atmosphere.",
+    "filename": "/generated/image-a-professional-accountant-working-confid.webp"
+  },
+  {
+    "prompt": "A frustrated accountant surrounded by messy spreadsheets and papers. The scene is captured in a dimly lit office with papers scattered around, a feeling of chaos yet determination. The accountant is mid-action, trying to organize the mess. Desaturated color tones with deep shadows and a hint of crimson add to the mood. The environment is realistic with a slightly grainy texture to enhance the sense of struggle and resolve.",
+    "filename": "/generated/image-a-frustrated-accountant-surrounded-by-me.webp"
+  },
+  {
+    "prompt": "A professional business valuation report document on a desk. The setting is a well-organized office with a wooden desk. Natural light filters through the windows, casting soft shadows. The color palette includes cool grays and deep shadows to create a serious and trustworthy mood. The background features a textured metal wall, adding a sense of permanence and resilience.",
+    "filename": "/generated/image-a-professional-business-valuation-report.webp"
+  },
+  {
+    "prompt": "A happy CPA celebrating successful work completion. The environment is a cozy office with warm interior lighting contrasting against the cool exterior light from a window. The CPA is mid-action, perhaps raising a cup of coffee in celebration. The color scheme is desaturated with soft ambient highlights and deep shadows, creating a mood of quiet satisfaction and grounded purpose. The background is realistic with a hint of textured stone to emphasize resilience.",
+    "filename": "/generated/image-a-happy-cpa-celebrating-successful-work-.webp"
+  },
+  {
+    "prompt": "Happy CPA celebrating successful work completion",
+    "filename": "/generated/image-happy-cpa-celebrating-successful-work-co.webp"
   }
 ]

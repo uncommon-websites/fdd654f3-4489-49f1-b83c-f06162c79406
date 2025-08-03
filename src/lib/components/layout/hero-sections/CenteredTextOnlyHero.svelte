@@ -19,15 +19,18 @@ Takes up the full viewport height and centers content vertically.
 		title: string;
 		subtitle: string;
 		imageSrc: string;
+		trustIndicator?: string;
 		callsToAction?: Array<{
 			href: string;
 			label: string;
+			variant?: "primary" | "secondary" | "ghost";
 		}>; // A maximum of two calls to action, with the first one being primary and the second one being secondary
 	};
 
 	let {
 		title,
 		subtitle,
+		trustIndicator,
 		callsToAction = [cta],
 		imageSrc = "/sample.png",
 		...rest
@@ -55,19 +58,32 @@ Takes up the full viewport height and centers content vertically.
 			</div>
 
 			{#if callsToAction.length > 0}
-				<div class="mt-8 flex gap-4" data-enter>
+				<div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center" data-enter>
 					{#each callsToAction as cta, index}
-						<Button href={cta.href} size="lg" variant="secondary" class="max-lg:hidden"
-							>{cta.label}</Button
+						<Button 
+							href={cta.href} 
+							size="lg" 
+							variant={cta.variant || (index === 0 ? "primary" : "secondary")} 
+							class="max-lg:hidden"
 						>
+							{cta.label}
+						</Button>
 						<Button
 							href={cta.href}
 							size="md"
-							variant={index % 2 === 0 ? "secondary" : "ghost"}
-							class="lg:hidden">{cta.label}</Button
+							variant={cta.variant || (index === 0 ? "primary" : "secondary")}
+							class="lg:hidden"
 						>
+							{cta.label}
+						</Button>
 					{/each}
 				</div>
+			{/if}
+
+			{#if trustIndicator}
+				<p class="mt-6 text-caption text-muted-foreground" data-enter>
+					{trustIndicator}
+				</p>
 			{/if}
 		</header>
 	</div>
