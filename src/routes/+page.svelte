@@ -10,14 +10,14 @@
 </script>
 
 <CenteredTextOnlyHero
-	title="From raw financials to audit-ready reports in minutes."
-	subtitle="AI-powered valuation engine that eliminates Excel gymnastics and Word document guesswork. Built for accountants who want to deliver faster without sacrificing accuracy."
-	imageSrc="/generated/image-a-professional-accountant-working-at-a-m.webp"
+	title="Valuation reports in minutes, not days."
+	subtitle="AI-powered engine that turns raw financials into audit-ready reports. Built for accountants who value precision and speed."
+	imageSrc="/generated/image-a-professional-accountant-working-confid.webp"
 />
 
 <Summary
-	title="Not just automation. A new standard for valuation work."
-	text="Manual valuation processes waste hours on spreadsheets and templates. Most professionals spend more time formatting than analyzing. FlashValue changes that—upload financials, answer context questions, and get clean, defensible reports with AI-powered narratives. No more Excel gymnastics. No more Word document guesswork. Just precise, audit-ready valuations on demand."
+	title="Professional valuation work, amplified."
+	text="Upload financials. Answer context questions. Get defensible reports with AI-powered narratives. FlashValue eliminates the manual work that keeps you from scaling—no spreadsheet gymnastics, no template guesswork. Just precise, audit-ready valuations that maintain the standards your reputation depends on."
 />
 
 <Testimonials
@@ -27,7 +27,7 @@
 			position: "CPA",
 			company: "Walsh & Associates",
 			quote:
-				"FlashValue cut my valuation turnaround from two weeks to two days. The AI-generated narratives are professional and the calculations are bulletproof. My clients are impressed with the speed and quality.",
+				"Two weeks to two days. The AI narratives are professional, calculations are solid. Clients notice the difference in turnaround time.",
 			image: "/generated/image-a-confident-female-accountant-in-a-profe.webp"
 		},
 		{
@@ -35,7 +35,7 @@
 			position: "Forensic Accountant",
 			company: "Torres Valuation Services",
 			quote:
-				"In divorce cases, speed matters. FlashValue lets me deliver defensible valuations quickly while maintaining the rigor courts expect. The transparent methodology documentation is invaluable.",
+				"In litigation, speed and defensibility matter equally. FlashValue delivers both. The methodology documentation stands up to scrutiny.",
 			image: "/generated/image-a-male-cpa-working-with-financial-spread.webp"
 		},
 		{
@@ -43,56 +43,56 @@
 			position: "Managing Partner",
 			company: "Precision Valuation Group",
 			quote:
-				"We've scaled our practice 3x without adding staff. FlashValue handles the grunt work so our team can focus on complex analysis and client relationships. It's transformed our business model.",
+				"Scaled 3x without adding staff. FlashValue handles the manual work so we focus on analysis and client relationships.",
 			image: "/generated/image-a-cpa-reviewing-business-valuation-repor.webp"
 		}
 	]}
 />
 
 <Features
-	title="Valuation work that actually scales"
-	subtitle="No Excel gymnastics. No template guesswork. No manual formatting that eats billable hours."
+	title="Professional valuation work, streamlined"
+	subtitle="Eliminate manual processes. Maintain professional standards. Scale your practice."
 	features={[
 		{
-			title: "AI-powered narrative generation",
+			title: "AI-powered narratives",
 			description:
-				"Clean, editable reports with professional narratives written by AI trained on thousands of valuation reports."
+				"Professional reports with narratives trained on thousands of valuation documents. Clean, editable, defensible."
 		},
 		{
-			title: "Automated financial normalization",
+			title: "Automated normalization",
 			description:
-				"Upload raw financials and FlashValue automatically normalizes data, identifies adjustments, and applies industry standards."
+				"Upload raw financials. FlashValue normalizes data, identifies adjustments, applies industry standards automatically."
 		},
 		{
-			title: "Comps-based valuation methods",
+			title: "Comparable analysis",
 			description:
-				"Built-in comparable company analysis with real-time market data and industry-specific multiples."
+				"Built-in comps analysis with real-time market data and industry-specific multiples. No manual research required."
 		},
 		{
-			title: "Audit-ready formatting",
+			title: "Audit-ready output",
 			description:
-				"Professional reports that meet audit standards with proper documentation, assumptions, and methodology disclosure."
+				"Reports that meet professional standards with proper documentation, assumptions, and methodology disclosure."
 		},
 		{
-			title: "Defensible methodologies",
+			title: "Transparent methodology",
 			description:
-				"Every calculation is transparent and traceable, with clear documentation of assumptions and data sources."
+				"Every calculation is traceable with clear documentation of assumptions and data sources. Court-tested rigor."
 		},
 		{
-			title: "Minutes, not days",
+			title: "Speed without compromise",
 			description:
-				"Complete valuation reports generated in minutes, not the days or weeks traditional methods require."
+				"Complete reports in minutes while maintaining the accuracy and defensibility your reputation requires."
 		}
 	]}
 />
 
 <UseCases
-	title="Built for professionals who bill by the hour but want to earn by the outcome"
-	subtitle="From solo CPAs to boutique valuation firms, FlashValue eliminates the bottlenecks that keep you from scaling your practice."
+	title="Professional amplification for high-trust work"
+	subtitle="Solo CPAs to boutique firms. Scale your practice without compromising the standards your reputation depends on."
 	useCases={[
 		{
-			title: "Solo CPA practice scaling",
-			description: "Handle 10x more valuation work without hiring additional staff. FlashValue automates the grunt work so you can focus on client relationships and business development while maintaining the same quality standards.",
+			title: "Solo practice scaling",
+			description: "Handle more valuation work without additional staff. Automate manual processes while maintaining quality standards. Focus on client relationships, not spreadsheet formatting.",
 			image: "/generated/image-a-solo-cpa-working-efficiently-in-a-mode.webp",
 			link: {
 				href: "/use-cases/solo-practice",
@@ -100,8 +100,8 @@
 			}
 		},
 		{
-			title: "Forensic accounting efficiency",
-			description: "Generate defensible valuations for divorce proceedings, shareholder disputes, and litigation support. AI-powered narratives and transparent methodologies that stand up to scrutiny in court.",
+			title: "Forensic accounting precision",
+			description: "Defensible valuations for litigation, divorce proceedings, shareholder disputes. Transparent methodologies and professional documentation that withstand court scrutiny.",
 			image: "/generated/image-a-forensic-accountant-analyzing-financia.webp",
 			link: {
 				href: "/use-cases/forensic-accounting",
@@ -109,8 +109,8 @@
 			}
 		},
 		{
-			title: "Boutique firm differentiation",
-			description: "Compete with larger firms by delivering faster turnaround times without compromising quality. Offer clients same-day preliminary valuations and comprehensive reports in days, not weeks.",
+			title: "Boutique firm advantage",
+			description: "Compete on speed without sacrificing quality. Deliver same-day preliminary valuations and comprehensive reports in days. Differentiate through efficiency.",
 			image: "/generated/image-boutique-accounting-firm-partners-discus.webp",
 			link: {
 				href: "/use-cases/boutique-firms",
@@ -122,14 +122,14 @@
 
 <AboutTeaser />
 <CallToAction 
-	title="Your time isn't infinite. Your expertise should scale." 
-	subtitle="This isn't just automation. This is professional amplification."
-	description="Talk to our founding team to see how FlashValue can eliminate your valuation bottlenecks and help you deliver faster without sacrificing the accuracy your reputation depends on."
-	imageSrc="/generated/image-a-professional-accountant-celebrating-su.webp"
+	title="Scale your expertise. Maintain your standards." 
+	subtitle="Professional amplification for high-trust work."
+	description="See how FlashValue eliminates valuation bottlenecks while maintaining the accuracy and defensibility your reputation requires."
+	imageSrc="/generated/image-a-business-professional-celebrating-succ.webp"
 	callsToAction={[
 		{
 			href: "mailto:patrick@flashvalue.com",
-			label: "Book time with our founders",
+			label: "Talk to our founders",
 			variant: "primary"
 		},
 		{
