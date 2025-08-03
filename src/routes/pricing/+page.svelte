@@ -17,38 +17,36 @@
 <Testimonials
 	testimonials={[
 		{
-			name: "Marcus Chen",
-			position: "CISO",
-			company: "TechFlow Industries",
+			name: "Jennifer Walsh",
+			position: "CPA, Partner",
+			company: "Walsh & Associates",
 			quote:
-				"After our traditional backup failed during a ransomware attack, Respawn's guaranteed recovery saved us from a $2M loss. The parallel rehydration got us back online in minutes, not days.",
-			image: "/generated/image-a-confident-it-security-manager-standing.webp"
+				"FlashValue cut our valuation turnaround from two weeks to two days. The AI narratives are surprisingly sophisticated, and clients love the professional presentation. It's transformed our practice.",
+			image: "/generated/image-a-professional-female-cpa-sits-at-her-de.webp"
 		},
 		{
-			name: "Sarah Rodriguez",
-			position: "MSP Operations Director",
-			company: "SecureNet Solutions",
+			name: "Michael Rodriguez",
+			position: "Forensic Accountant",
+			company: "Rodriguez Valuation Services",
 			quote:
-				"Respawn's immutable verification gives our clients confidence that their recovery will work. We've eliminated failed recovery attempts and the reputation damage that comes with them.",
-			image: "/generated/image-an-msp-operations-director-leading-a-cyb.webp"
+				"I was skeptical about AI-generated reports, but FlashValue's methodology is rock-solid. The time savings are incredible, and I can focus on analysis instead of formatting spreadsheets.",
+			image: "/generated/image-a-male-forensic-accountant-is-deeply-eng.webp"
 		},
 		{
-			name: "David Kim",
-			position: "IT Director",
-			company: "MidMarket Manufacturing",
+			name: "Sarah Chen",
+			position: "Managing Director",
+			company: "Precision Valuations LLC",
 			quote:
-				"The blockchain-powered verification means we can prove our data integrity to auditors instantly. Respawn turned our biggest compliance headache into our strongest security asset.",
-			image: "/generated/image-an-it-director-reviewing-backup-infrastr.webp"
-		},
-		{
-			name: "Elena Vasquez",
-			position: "Security Architect",
-			company: "Financial Services Corp",
-			quote:
-				"The value proposition is unmatched. Respawn delivers enterprise-grade recovery at a fraction of traditional disaster recovery costs, with mathematical proof of data integrity.",
-			image: "/generated/image-an-enterprise-security-professional-anal.webp"
+				"FlashValue handles the grunt work so we can take on more clients without hiring more staff. The white-label reports maintain our brand, and the quality is consistently excellent.",
+			image: "/generated/image-a-professional-asian-woman-in-business-a.webp"
 		}
 	]}
 />
 
-<CallToAction />
+<!-- Sticky CTA Section -->
+<section class="section-py section-px bg-muted">
+	<div class="container mx-auto text-center">
+		<h2 class="text-title2 text-foreground mb-4">Your next valuation report could be done in 10 minutes</h2>
+		<Button href="/signup" variant="primary" size="lg">Start Free Trial</Button>
+	</div>
+</section>

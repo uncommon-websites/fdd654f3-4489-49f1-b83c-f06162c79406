@@ -1,5 +1,5 @@
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2025-08-03T18:22:12.245Z -->
+<!-- Updated: 2025-08-03T18:33:35.456Z -->
 
 # Current Todo List State
 
@@ -32,4 +32,15 @@
 - [x] Create SingleTestimonial component for customer quote section
 - [x] Update CenteredTextOnlyHero component for new headline and dual CTAs
 - [x] Completely restructure homepage (+page.svelte) with new 8-section layout
+- [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values
+- [x] Update Pricing component with FlashValue headline and subtitle
+- [x] Replace pricing tiers with FlashValue plans (Starter $99, Pro $299, Pay-as-you-go $49/report)
+- [x] Remove the annual/monthly toggle since FlashValue uses monthly pricing
+- [x] Remove the complex feature comparison table
+- [x] Add trust statement section below pricing tiers
+- [x] Add FAQ section with the specified questions and answers
+- [x] Add compliance note in footer area
+- [x] Update testimonials to be relevant for FlashValue/accounting professionals
+- [x] Add sticky CTA section at the bottom
+- [x] Remove LogoScroller component if not needed
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values

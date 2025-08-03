@@ -32,12 +32,12 @@ Please update features according to the company's product offering. Do not remov
 	// import IconCheck from "~icons/lucide/check";
 	// import IconX from "~icons/lucide/x";
 	import NumberFlow from "@number-flow/svelte";
-	import LogoScroller from "./LogoScroller.svelte";
+	// LogoScroller removed for FlashValue pricing page
 
 	// Props
 	const {
-		title = "Decentralized storage that scales with you",
-		subtitle = "Choose the plan that fits your Web3 storage needs",
+		title = "Start generating valuation reports in minutes",
+		subtitle = "No sales calls. No contracts. Just results.",
 		tierNames = ["Developer", "Pro", "Enterprise"],
 		features = [
 			{
@@ -131,63 +131,56 @@ Please update features according to the company's product offering. Do not remov
 		],
 		tiers = [
 			{
-				name: "Developer",
-				monthlyPrice: 19.99,
-				yearlyPrice: 15.99, // 20% savings
-				description: "Perfect for Web3 developers and small dApps",
+				name: "Starter",
+				monthlyPrice: 99,
+				yearlyPrice: null,
+				description: "For solo CPAs and small firms",
 				features: [
-					"100GB decentralized storage",
-					"100K API requests/month",
-					"Censorship-resistant storage",
-					"End-to-end encryption",
-					"Basic provable storage",
-					"10 Mbps network bandwidth",
-					"Community support"
+					"5 valuation reports per month",
+					"Upload Excel, CSV, or PDF",
+					"AI-generated report narratives",
+					"Editable PDF and Word exports",
+					"Access to EV/EBITDA valuation model",
+					"Email support"
 				],
 				cta: {
-					label: "Start building",
-					href: "/signup?plan=developer"
+					label: "Start Free 7-Day Trial",
+					href: "/signup?plan=starter"
 				}
 			},
 			{
 				name: "Pro",
-				monthlyPrice: 79.99,
-				yearlyPrice: 63.99, // 20% savings
-				description: "For growing dApps and production workloads",
+				monthlyPrice: 299,
+				yearlyPrice: null,
+				description: "For high-volume users and power firms",
 				features: [
-					"1TB decentralized storage",
-					"1M API requests/month",
-					"5x data replication",
-					"Advanced provable storage",
-					"100 Mbps network bandwidth",
-					"Priority support",
-					"99.5% uptime SLA",
-					"Custom domains"
+					"Unlimited reports",
+					"All Starter features",
+					"White-label report exports",
+					"Editable assumption dashboard",
+					"Early access to additional valuation methods (DCF, asset-based)",
+					"Priority support"
 				],
 				cta: {
-					label: "Scale up",
+					label: "Start Free 7-Day Trial",
 					href: "/signup?plan=pro"
 				},
 				highlight: true
 			},
 			{
-				name: "Enterprise",
-				monthlyPrice: null,
+				name: "Pay-as-you-go",
+				monthlyPrice: 49,
 				yearlyPrice: null,
-				description: "For large-scale Web3 applications and organizations",
+				description: "Use FlashValue without a subscription",
 				features: [
-					"Unlimited storage capacity",
-					"Unlimited API requests",
-					"Custom data replication",
-					"Custom provable storage",
-					"Dedicated node deployment",
-					"White-label solutions",
-					"99.9% uptime SLA",
-					"Dedicated account manager"
+					"All core features",
+					"One-off valuation report",
+					"No monthly commitment",
+					"Perfect for occasional use"
 				],
 				cta: {
-					label: "Contact sales",
-					href: "/contact"
+					label: "Try One Now",
+					href: "/signup?plan=payg"
 				}
 			}
 		]
@@ -205,33 +198,8 @@ Please update features according to the company's product offering. Do not remov
 </script>
 
 <section class="section-py section-px container mx-auto">
-	<div class="flex flex-col items-baseline justify-between lg:flex-row">
+	<div class="flex flex-col items-center justify-center">
 		<SectionHeader {title} {subtitle} />
-
-		<div class="mb-8 flex justify-center">
-			<div class="bg-muted inline-flex items-center gap-0.5 rounded-full p-0.5">
-				<button
-					class={[
-						"rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200",
-						!annual
-							? "bg-background text-foreground"
-							: "text-muted-foreground hover:text-foreground"
-					]}
-					onclick={() => (annual = false)}
-				>
-					Monthly
-				</button>
-				<button
-					class={[
-						"rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200",
-						annual ? "bg-background text-foreground" : "text-muted-foreground hover:text-foreground"
-					]}
-					onclick={() => (annual = true)}
-				>
-					Annual <span class="text-muted-foreground ml-1 text-xs">Save 20%</span>
-				</button>
-			</div>
-		</div>
 	</div>
 
 	<div class="bb grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -247,7 +215,18 @@ Please update features according to the company's product offering. Do not remov
 				<div class="mb-8">
 					<h3 class="text-title3 text-foreground mb-4">{tier.name}</h3>
 					<div class="mt-2 flex items-baseline">
-						{#if tier.monthlyPrice === null && tier.yearlyPrice === null}
+						{#if tier.name === "Pay-as-you-go"}
+							<NumberFlow
+								class="text-title2 [&::part\(suffix\)]:text-caption dark:text-white"
+								format={{
+									style: "currency",
+									currency: "USD",
+									trailingZeroDisplay: "stripIfInteger"
+								}}
+								value={tier.monthlyPrice}
+								suffix="/report"
+							/>
+						{:else if tier.monthlyPrice === null && tier.yearlyPrice === null}
 							<span class="text-title2 text-foreground">Custom</span>
 						{:else}
 							<NumberFlow
@@ -257,7 +236,7 @@ Please update features according to the company's product offering. Do not remov
 									currency: "USD",
 									trailingZeroDisplay: "stripIfInteger"
 								}}
-								value={annual ? tier.yearlyPrice : tier.monthlyPrice}
+								value={tier.monthlyPrice}
 								suffix="/month"
 							/>
 						{/if}
@@ -290,104 +269,41 @@ Please update features according to the company's product offering. Do not remov
 			</div>
 		{/each}
 	</div>
-	<div class="mt-32">
-		<!-- Responsive table wrapper with horizontal scroll on mobile -->
-		<!-- <div class=" hidden overflow-x-auto px-4 sm:mx-0 sm:block sm:px-0">
-			<table
-				class="w-full min-w-full border-separate border-spacing-0 border-gray-200 text-left dark:border-gray-700"
-			>
-				<thead>
-					<tr>
-						<th
-							class="sticky left-0 min-w-[120px] border-b border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900"
-						>
-							<span class="sr-only">Feature</span>
-						</th>
-						{#each tierNames as tierName}
-							<th
-								class="text-headline min-w-[100px] border-b border-gray-200 p-4 text-start font-normal dark:border-gray-700"
-							>
-								{tierName}
-							</th>
-						{/each}
-					</tr>
-				</thead>
-				<tbody>
-					{#each features as feature}
-						<tr>
-							<td class="text-caption">
-								{feature.name}
-							</td>
-							{#each tierNames as tierName}
-								<td
-									class="min-w-[100px] border-b border-gray-200 p-4 text-start text-gray-600 dark:border-gray-700 dark:text-gray-300"
-								>
-									{#if typeof feature.tiers[tierName] === "boolean"}
-										{#if feature.tiers[tierName]}
-											<IconCheck
-												class="text-primary-600 dark:text-primary-400 mx-auto size-5 sm:mx-0"
-											/>
-										{:else}
-											<IconX class="mx-auto size-5 text-gray-400 sm:mx-0" />
-										{/if}
-									{:else}
-										{feature.tiers[tierName]}
-									{/if}
-								</td>
-							{/each}
-						</tr>
-					{/each}
-				</tbody>
-			</table>
-		</div> -->
+	<!-- Trust Statement -->
+	<div class="mt-16 text-center">
+		<p class="text-body text-emphasis-medium max-w-2xl mx-auto">
+			Trusted by professional accountants and valuation experts who bill by the hour but don't want to waste their time.
+		</p>
+	</div>
 
-		<!-- Mobile feature comparison (alternative view for very small screens) -->
-		<div>
-			<!-- Universal pricing comparison for mobile -->
-			<div class="overflow-x-auto">
-				<table class="w-full border-collapse">
-					<!-- Sticky header with tier names -->
-					<thead class="border-border sticky top-0 z-10 border-b">
-						<tr>
-							<th class="min-w-[120px] py-3 text-left">
-								<span class="sr-only">Feature</span>
-							</th>
-							{#each tierNames as tierName, i}
-								<th class="text-caption text-foreground min-w-[100px] py-3 text-left">
-									{tierName}
-								</th>
-							{/each}
-						</tr>
-					</thead>
-					<tbody class="divide-border divide-y">
-						{#each features as feature}
-							<tr>
-								<td class="text-body text-foreground py-3 pr-8 font-medium lg:pr-0">
-									{feature.name}
-								</td>
-								{#each tierNames as tierName, i}
-									<td class="py-3">
-										{#if typeof feature.tiers[tierName] === "boolean"}
-											{#if feature.tiers[tierName]}
-												<div class="text-primary size-5">✓</div>
-											{:else}
-												<div class="text-muted-foreground size-5">✗</div>
-											{/if}
-										{:else}
-											<span class="text-callout text-emphasis-medium font-medium">
-												{feature.tiers[tierName]}
-											</span>
-										{/if}
-									</td>
-								{/each}
-							</tr>
-						{/each}
-					</tbody>
-				</table>
+	<!-- FAQ Section -->
+	<div class="mt-24">
+		<div class="max-w-3xl mx-auto">
+			<h3 class="text-title2 text-foreground mb-12 text-center">Frequently asked questions</h3>
+			<div class="space-y-8">
+				<div>
+					<h4 class="text-headline text-foreground mb-3">What happens after the trial?</h4>
+					<p class="text-body text-emphasis-medium">You'll be charged automatically unless you cancel.</p>
+				</div>
+				<div>
+					<h4 class="text-headline text-foreground mb-3">Can I edit the valuation reports?</h4>
+					<p class="text-body text-emphasis-medium">Yes. Reports are fully customizable and exportable in PDF or Word format.</p>
+				</div>
+				<div>
+					<h4 class="text-headline text-foreground mb-3">What if I cancel my subscription?</h4>
+					<p class="text-body text-emphasis-medium">You keep access to all previously generated reports.</p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<LogoScroller />
+
+	<!-- Compliance Note -->
+	<div class="mt-16 text-center">
+		<p class="text-caption text-emphasis-low max-w-3xl mx-auto">
+			FlashValue follows AICPA and NACVA-aligned valuation methodologies. Reports are editable to meet your firm's compliance standards.
+		</p>
+	</div>
+	<!-- LogoScroller removed for FlashValue pricing page -->
 </section>
 
 <style lang="postcss">
