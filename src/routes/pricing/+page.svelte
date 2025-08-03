@@ -7,6 +7,7 @@
 	import Testimonials from "$lib/components/layout/Testimonials.svelte";
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import Pricing from "$lib/components/layout/Pricing.svelte";
+	import Button from "$lib/components/ui/Button.svelte";
 
 	// Props
 	const { data }: PageProps = $props();
