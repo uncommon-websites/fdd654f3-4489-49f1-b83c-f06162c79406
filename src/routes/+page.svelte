@@ -1,1 +1,3 @@
-<main class="page" aria-label="Canvas"></main>
+<main class="page" aria-label="Canvas">
+	<div>Hello world</div>
+</main>
