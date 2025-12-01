@@ -1,5 +1,9 @@
+<!--
+    In partnership with Uncommon
+    https://unc.mn
+-->
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light" class="relative">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
@@ -14,7 +18,10 @@
 		<link rel="manifest" href="%sveltekit.assets%/site.webmanifest" />
 	</head>
 
-	<body data-sveltekit-preload-data="hover">
+	<body
+		data-sveltekit-preload-data="hover"
+		class="font-body text-body text-foreground bg-background text-pretty antialiased"
+	>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>

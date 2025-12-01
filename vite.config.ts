@@ -6,6 +6,7 @@ import Icons from "unplugin-icons/vite";
 import ComponentTagger from "vite-plugin-component-tagger";
 
 export default defineConfig(({ mode }) => {
+	// Load env file based on mode
 	const env = loadEnv(mode, ".", "");
 
 	return {
