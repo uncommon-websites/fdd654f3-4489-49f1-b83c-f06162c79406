@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Prove your data will recover before disaster strikes"
+	subtitle="Autonomous testing and cryptographic proofs verify your backup resilience. When verification fails, Immune autonomously heals your infrastructure."
+	imageSrc="/generated/image-a-cinematic-editorial-style-photograph-o.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/atlassian.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/dropbox.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/zendesk.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/asana.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
